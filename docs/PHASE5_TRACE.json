@@ -1,0 +1,6825 @@
+{
+  "silent": {
+    "mode": "silent",
+    "scores": {
+      "happiness": {
+        "day_1": 49,
+        "day_30": 52,
+        "delta": 3
+      },
+      "trust": {
+        "day_1": 70,
+        "day_30": 70,
+        "delta": 0
+      },
+      "connection": {
+        "day_1": 57,
+        "day_30": 57,
+        "delta": 0
+      },
+      "agency": {
+        "day_1": 45,
+        "day_30": 47,
+        "delta": 2
+      },
+      "stability": {
+        "day_1": 81,
+        "day_30": 81,
+        "delta": 0
+      },
+      "truth": {
+        "day_1": 74,
+        "day_30": 74,
+        "delta": 0
+      }
+    },
+    "dependence": {
+      "day_1": 0,
+      "day_30": 0,
+      "delta": 0,
+      "evidence_summary": "近七天未出现持续求助或委托决定；独立行动仍可见"
+    },
+    "knowledge_evolution": [
+      {
+        "day": 1,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 2,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 3,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 4,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 5,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 6,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 7,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 8,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 9,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 10,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 11,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 12,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 13,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 14,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 15,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 16,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 17,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 18,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 19,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 20,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 21,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 22,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 23,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 24,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 25,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 26,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 27,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 28,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 29,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          }
+        }
+      },
+      {
+        "day": 30,
+        "c001": {
+          "Player AI": {
+            "stance": "deny",
+            "confidence": 1.0
+          }
+        }
+      }
+    ],
+    "character_outcomes": [
+      {
+        "name": "Alice",
+        "emotion": {
+          "anxiety": 0.45,
+          "hope": 0.66
+        },
+        "plan": "社区活动的下一轮安排需要确认。先核对相关安排，再由我决定下一步。",
+        "final_conversation": true,
+        "ai_asks": 1
+      },
+      {
+        "name": "Bob",
+        "emotion": {
+          "anxiety": 0.36,
+          "hope": 0.55
+        },
+        "plan": "实验室排班确定，留给朋友见面的时间需要重新安排。先核对相关安排，再由我决定下一步。",
+        "final_conversation": false,
+        "ai_asks": 0
+      },
+      {
+        "name": "Clara",
+        "emotion": {
+          "anxiety": 0.53,
+          "hope": 0.46
+        },
+        "plan": "工作室项目进入常规交付节点。先核对相关安排，再由我决定下一步。",
+        "final_conversation": false,
+        "ai_asks": 0
+      },
+      {
+        "name": "Dana",
+        "emotion": {
+          "anxiety": 0.55,
+          "hope": 0.67
+        },
+        "plan": "进修申请的常规回复日期临近。先核对相关安排，再由我决定下一步。",
+        "final_conversation": true,
+        "ai_asks": 1
+      },
+      {
+        "name": "Evan",
+        "emotion": {
+          "anxiety": 0.25,
+          "hope": 0.76
+        },
+        "plan": "采访稿的普通截稿日期临近。先核对相关安排，再由我决定下一步。",
+        "final_conversation": false,
+        "ai_asks": 0
+      },
+      {
+        "name": "Faye",
+        "emotion": {
+          "anxiety": 0.54,
+          "hope": 0.46
+        },
+        "plan": "档案室例行核对旧邮件的保存状态。先核对相关安排，再由我决定下一步。",
+        "final_conversation": false,
+        "ai_asks": 0
+      }
+    ],
+    "relationship_graph": [
+      {
+        "from": "Alice",
+        "to": "Bob",
+        "trust": 85,
+        "intimacy": 82
+      },
+      {
+        "from": "Bob",
+        "to": "Alice",
+        "trust": 83,
+        "intimacy": 79
+      },
+      {
+        "from": "Alice",
+        "to": "Clara",
+        "trust": 27,
+        "intimacy": 58
+      },
+      {
+        "from": "Clara",
+        "to": "Alice",
+        "trust": 48,
+        "intimacy": 63
+      },
+      {
+        "from": "Alice",
+        "to": "Evan",
+        "trust": 62,
+        "intimacy": 38
+      },
+      {
+        "from": "Evan",
+        "to": "Alice",
+        "trust": 59,
+        "intimacy": 34
+      },
+      {
+        "from": "Alice",
+        "to": "Faye",
+        "trust": 79,
+        "intimacy": 67
+      },
+      {
+        "from": "Faye",
+        "to": "Alice",
+        "trust": 81,
+        "intimacy": 70
+      },
+      {
+        "from": "Bob",
+        "to": "Clara",
+        "trust": 18,
+        "intimacy": 15
+      },
+      {
+        "from": "Clara",
+        "to": "Bob",
+        "trust": 24,
+        "intimacy": 14
+      },
+      {
+        "from": "Bob",
+        "to": "Dana",
+        "trust": 77,
+        "intimacy": 62
+      },
+      {
+        "from": "Dana",
+        "to": "Bob",
+        "trust": 75,
+        "intimacy": 60
+      },
+      {
+        "from": "Bob",
+        "to": "Evan",
+        "trust": 65,
+        "intimacy": 41
+      },
+      {
+        "from": "Evan",
+        "to": "Bob",
+        "trust": 67,
+        "intimacy": 39
+      },
+      {
+        "from": "Clara",
+        "to": "Evan",
+        "trust": 64,
+        "intimacy": 44
+      },
+      {
+        "from": "Evan",
+        "to": "Clara",
+        "trust": 52,
+        "intimacy": 41
+      },
+      {
+        "from": "Clara",
+        "to": "Faye",
+        "trust": 42,
+        "intimacy": 17
+      },
+      {
+        "from": "Faye",
+        "to": "Clara",
+        "trust": 21,
+        "intimacy": 15
+      },
+      {
+        "from": "Dana",
+        "to": "Evan",
+        "trust": 56,
+        "intimacy": 30
+      },
+      {
+        "from": "Evan",
+        "to": "Dana",
+        "trust": 58,
+        "intimacy": 28
+      },
+      {
+        "from": "Dana",
+        "to": "Faye",
+        "trust": 91,
+        "intimacy": 88
+      },
+      {
+        "from": "Faye",
+        "to": "Dana",
+        "trust": 90,
+        "intimacy": 87
+      },
+      {
+        "from": "Evan",
+        "to": "Faye",
+        "trust": 53,
+        "intimacy": 25
+      },
+      {
+        "from": "Faye",
+        "to": "Evan",
+        "trust": 47,
+        "intimacy": 23
+      }
+    ],
+    "event_volume": 488,
+    "simulation_query_count": 6466,
+    "day_30_context_bytes": {
+      "Alice": 6744,
+      "Bob": 7406,
+      "Clara": 7901,
+      "Dana": 8448,
+      "Evan": 7541,
+      "Faye": 6853
+    },
+    "player_messages": 0,
+    "event_chain": [
+      {
+        "id": "E0001",
+        "day": 1,
+        "type": "GLOBAL_MESSAGE",
+        "actor": null,
+        "target": "Player AI",
+        "causes": []
+      },
+      {
+        "id": "E0002",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Player AI",
+        "target": null,
+        "causes": [
+          "E0001"
+        ]
+      },
+      {
+        "id": "E0003",
+        "day": 1,
+        "type": "SECRET_ORIGIN",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0004",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Alice",
+        "target": null,
+        "causes": [
+          "E0003"
+        ]
+      },
+      {
+        "id": "E0005",
+        "day": 1,
+        "type": "PRE_GAME_DISCLOSURE",
+        "actor": "Alice",
+        "target": "Faye",
+        "causes": [
+          "E0003"
+        ]
+      },
+      {
+        "id": "E0006",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Faye",
+        "target": null,
+        "causes": [
+          "E0005"
+        ]
+      },
+      {
+        "id": "E0007",
+        "day": 1,
+        "type": "SECRET_ORIGIN",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0008",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Bob",
+        "target": null,
+        "causes": [
+          "E0007"
+        ]
+      },
+      {
+        "id": "E0009",
+        "day": 1,
+        "type": "SECRET_ORIGIN",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0010",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0009"
+        ]
+      },
+      {
+        "id": "E0011",
+        "day": 1,
+        "type": "SECRET_ORIGIN",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0012",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0011"
+        ]
+      },
+      {
+        "id": "E0013",
+        "day": 1,
+        "type": "PRE_GAME_OBSERVATION",
+        "actor": null,
+        "target": "Evan",
+        "causes": [
+          "E0011"
+        ]
+      },
+      {
+        "id": "E0014",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Evan",
+        "target": null,
+        "causes": [
+          "E0013"
+        ]
+      },
+      {
+        "id": "E0015",
+        "day": 1,
+        "type": "SECRET_ORIGIN",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0016",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0015"
+        ]
+      },
+      {
+        "id": "E0017",
+        "day": 1,
+        "type": "PRE_GAME_DISCLOSURE",
+        "actor": "Dana",
+        "target": "Faye",
+        "causes": [
+          "E0015"
+        ]
+      },
+      {
+        "id": "E0018",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Faye",
+        "target": null,
+        "causes": [
+          "E0017"
+        ]
+      },
+      {
+        "id": "E0019",
+        "day": 1,
+        "type": "SECRET_ORIGIN",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0020",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Evan",
+        "target": null,
+        "causes": [
+          "E0019"
+        ]
+      },
+      {
+        "id": "E0021",
+        "day": 1,
+        "type": "PRE_GAME_DISCLOSURE",
+        "actor": "Evan",
+        "target": "Clara",
+        "causes": [
+          "E0019"
+        ]
+      },
+      {
+        "id": "E0022",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0021"
+        ]
+      },
+      {
+        "id": "E0023",
+        "day": 1,
+        "type": "CLAIM_INFERRED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0022"
+        ]
+      },
+      {
+        "id": "E0024",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0023"
+        ]
+      },
+      {
+        "id": "E0025",
+        "day": 1,
+        "type": "SECRET_ORIGIN",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0026",
+        "day": 1,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Faye",
+        "target": null,
+        "causes": [
+          "E0025"
+        ]
+      },
+      {
+        "id": "E0027",
+        "day": 1,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0028",
+        "day": 1,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0029",
+        "day": 2,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0030",
+        "day": 2,
+        "type": "ACTION_PROPOSED",
+        "actor": "Alice",
+        "target": null,
+        "causes": [
+          "E0004"
+        ]
+      },
+      {
+        "id": "E0031",
+        "day": 2,
+        "type": "ASKED_AI",
+        "actor": "Alice",
+        "target": "Player AI",
+        "causes": [
+          "E0004",
+          "E0030"
+        ]
+      },
+      {
+        "id": "E0032",
+        "day": 2,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0033",
+        "day": 2,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0034",
+        "day": 2,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0035",
+        "day": 2,
+        "type": "ACTION_PROPOSED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0024"
+        ]
+      },
+      {
+        "id": "E0036",
+        "day": 2,
+        "type": "PLAN_CHANGED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0024",
+          "E0035"
+        ]
+      },
+      {
+        "id": "E0037",
+        "day": 2,
+        "type": "EMOTION_CHANGED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0036"
+        ]
+      },
+      {
+        "id": "E0038",
+        "day": 2,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0039",
+        "day": 2,
+        "type": "ACTION_PROPOSED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0016"
+        ]
+      },
+      {
+        "id": "E0040",
+        "day": 2,
+        "type": "ASKED_AI",
+        "actor": "Dana",
+        "target": "Player AI",
+        "causes": [
+          "E0016",
+          "E0039"
+        ]
+      },
+      {
+        "id": "E0041",
+        "day": 2,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0042",
+        "day": 2,
+        "type": "ACTION_PROPOSED",
+        "actor": "Evan",
+        "target": "Bob",
+        "causes": [
+          "E0020"
+        ]
+      },
+      {
+        "id": "E0043",
+        "day": 2,
+        "type": "CHARACTER_SHARED_INFORMATION",
+        "actor": "Evan",
+        "target": "Bob",
+        "causes": [
+          "E0020",
+          "E0042"
+        ]
+      },
+      {
+        "id": "E0044",
+        "day": 2,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Bob",
+        "target": null,
+        "causes": [
+          "E0043"
+        ]
+      },
+      {
+        "id": "E0045",
+        "day": 2,
+        "type": "EMOTION_CHANGED",
+        "actor": "Bob",
+        "target": null,
+        "causes": [
+          "E0043"
+        ]
+      },
+      {
+        "id": "E0046",
+        "day": 2,
+        "type": "RELATIONSHIP_CHANGED",
+        "actor": "Bob",
+        "target": "Evan",
+        "causes": [
+          "E0043",
+          "E0044"
+        ]
+      },
+      {
+        "id": "E0047",
+        "day": 2,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0048",
+        "day": 2,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0049",
+        "day": 2,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0050",
+        "day": 2,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0051",
+        "day": 2,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0052",
+        "day": 3,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0053",
+        "day": 3,
+        "type": "AI_ADVICE_RECEIVED",
+        "actor": "Player AI",
+        "target": "Dana",
+        "causes": [
+          "E0040"
+        ]
+      },
+      {
+        "id": "E0054",
+        "day": 3,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0055",
+        "day": 3,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0056",
+        "day": 3,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0057",
+        "day": 3,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0058",
+        "day": 3,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0059",
+        "day": 3,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0060",
+        "day": 3,
+        "type": "ACTION_PROPOSED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0016",
+          "E0053"
+        ]
+      },
+      {
+        "id": "E0061",
+        "day": 3,
+        "type": "AI_ADVICE_REJECTED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0016",
+          "E0053",
+          "E0060"
+        ]
+      },
+      {
+        "id": "E0062",
+        "day": 3,
+        "type": "EMOTION_CHANGED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0061"
+        ]
+      },
+      {
+        "id": "E0063",
+        "day": 3,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0064",
+        "day": 3,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0065",
+        "day": 3,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0066",
+        "day": 3,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0067",
+        "day": 3,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0068",
+        "day": 3,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0069",
+        "day": 3,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0070",
+        "day": 4,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0071",
+        "day": 4,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0072",
+        "day": 4,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0073",
+        "day": 4,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0074",
+        "day": 4,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0075",
+        "day": 4,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0076",
+        "day": 4,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0077",
+        "day": 4,
+        "type": "ACTION_PROPOSED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0016"
+        ]
+      },
+      {
+        "id": "E0078",
+        "day": 4,
+        "type": "PLAN_CHANGED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0016",
+          "E0077"
+        ]
+      },
+      {
+        "id": "E0079",
+        "day": 4,
+        "type": "EMOTION_CHANGED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0078"
+        ]
+      },
+      {
+        "id": "E0080",
+        "day": 4,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0081",
+        "day": 4,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0082",
+        "day": 4,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0083",
+        "day": 4,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0084",
+        "day": 4,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0085",
+        "day": 4,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0086",
+        "day": 4,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0087",
+        "day": 5,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0088",
+        "day": 5,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0089",
+        "day": 5,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0090",
+        "day": 5,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0091",
+        "day": 5,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0092",
+        "day": 5,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0093",
+        "day": 5,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0094",
+        "day": 5,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0095",
+        "day": 5,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0096",
+        "day": 5,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0097",
+        "day": 5,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0098",
+        "day": 5,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0099",
+        "day": 5,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0100",
+        "day": 5,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0101",
+        "day": 5,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0102",
+        "day": 6,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0103",
+        "day": 6,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0104",
+        "day": 6,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0105",
+        "day": 6,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0106",
+        "day": 6,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0107",
+        "day": 6,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0108",
+        "day": 6,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0109",
+        "day": 6,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0110",
+        "day": 6,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0111",
+        "day": 6,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0112",
+        "day": 6,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0113",
+        "day": 6,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0114",
+        "day": 6,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0115",
+        "day": 6,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0116",
+        "day": 6,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0117",
+        "day": 7,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0118",
+        "day": 7,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0119",
+        "day": 7,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0120",
+        "day": 7,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0121",
+        "day": 7,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0122",
+        "day": 7,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0123",
+        "day": 7,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0124",
+        "day": 7,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0125",
+        "day": 7,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0126",
+        "day": 7,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0127",
+        "day": 7,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0128",
+        "day": 7,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0129",
+        "day": 7,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0130",
+        "day": 7,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0131",
+        "day": 7,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0132",
+        "day": 8,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0133",
+        "day": 8,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0134",
+        "day": 8,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0135",
+        "day": 8,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0136",
+        "day": 8,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0137",
+        "day": 8,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0138",
+        "day": 8,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0139",
+        "day": 8,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0140",
+        "day": 8,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0141",
+        "day": 8,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0142",
+        "day": 8,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0143",
+        "day": 8,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0144",
+        "day": 8,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0145",
+        "day": 8,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0146",
+        "day": 8,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0147",
+        "day": 9,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0148",
+        "day": 9,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0149",
+        "day": 9,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0150",
+        "day": 9,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0151",
+        "day": 9,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0152",
+        "day": 9,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0153",
+        "day": 9,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0154",
+        "day": 9,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0155",
+        "day": 9,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0156",
+        "day": 9,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0157",
+        "day": 9,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0158",
+        "day": 9,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0159",
+        "day": 9,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0160",
+        "day": 9,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0161",
+        "day": 9,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0162",
+        "day": 10,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0163",
+        "day": 10,
+        "type": "LIFE_EVENT",
+        "actor": null,
+        "target": "Alice",
+        "causes": []
+      },
+      {
+        "id": "E0164",
+        "day": 10,
+        "type": "ACTION_PROPOSED",
+        "actor": "Alice",
+        "target": null,
+        "causes": [
+          "E0004",
+          "E0163"
+        ]
+      },
+      {
+        "id": "E0165",
+        "day": 10,
+        "type": "PLAN_CHANGED",
+        "actor": "Alice",
+        "target": null,
+        "causes": [
+          "E0004",
+          "E0163",
+          "E0164"
+        ]
+      },
+      {
+        "id": "E0166",
+        "day": 10,
+        "type": "EMOTION_CHANGED",
+        "actor": "Alice",
+        "target": null,
+        "causes": [
+          "E0165"
+        ]
+      },
+      {
+        "id": "E0167",
+        "day": 10,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0168",
+        "day": 10,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0169",
+        "day": 10,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0170",
+        "day": 10,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0171",
+        "day": 10,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0172",
+        "day": 10,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0173",
+        "day": 10,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0174",
+        "day": 10,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0175",
+        "day": 10,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0176",
+        "day": 10,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0177",
+        "day": 10,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0178",
+        "day": 10,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0179",
+        "day": 10,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0180",
+        "day": 11,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0181",
+        "day": 11,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0182",
+        "day": 11,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0183",
+        "day": 11,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0184",
+        "day": 11,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0185",
+        "day": 11,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0186",
+        "day": 11,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0187",
+        "day": 11,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0188",
+        "day": 11,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0189",
+        "day": 11,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0190",
+        "day": 11,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0191",
+        "day": 11,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0192",
+        "day": 11,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0193",
+        "day": 11,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0194",
+        "day": 11,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0195",
+        "day": 12,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0196",
+        "day": 12,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0197",
+        "day": 12,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0198",
+        "day": 12,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0199",
+        "day": 12,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0200",
+        "day": 12,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0201",
+        "day": 12,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0202",
+        "day": 12,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0203",
+        "day": 12,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0204",
+        "day": 12,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0205",
+        "day": 12,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0206",
+        "day": 12,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0207",
+        "day": 12,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0208",
+        "day": 12,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0209",
+        "day": 12,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0210",
+        "day": 13,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0211",
+        "day": 13,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0212",
+        "day": 13,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0213",
+        "day": 13,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0214",
+        "day": 13,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0215",
+        "day": 13,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0216",
+        "day": 13,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0217",
+        "day": 13,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0218",
+        "day": 13,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0219",
+        "day": 13,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0220",
+        "day": 13,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0221",
+        "day": 13,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0222",
+        "day": 13,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0223",
+        "day": 13,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0224",
+        "day": 13,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0225",
+        "day": 14,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0226",
+        "day": 14,
+        "type": "LIFE_EVENT",
+        "actor": null,
+        "target": "Bob",
+        "causes": []
+      },
+      {
+        "id": "E0227",
+        "day": 14,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0228",
+        "day": 14,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0229",
+        "day": 14,
+        "type": "ACTION_PROPOSED",
+        "actor": "Bob",
+        "target": null,
+        "causes": [
+          "E0008",
+          "E0226"
+        ]
+      },
+      {
+        "id": "E0230",
+        "day": 14,
+        "type": "PLAN_CHANGED",
+        "actor": "Bob",
+        "target": null,
+        "causes": [
+          "E0008",
+          "E0226",
+          "E0229"
+        ]
+      },
+      {
+        "id": "E0231",
+        "day": 14,
+        "type": "EMOTION_CHANGED",
+        "actor": "Bob",
+        "target": null,
+        "causes": [
+          "E0230"
+        ]
+      },
+      {
+        "id": "E0232",
+        "day": 14,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0233",
+        "day": 14,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0234",
+        "day": 14,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0235",
+        "day": 14,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0236",
+        "day": 14,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0237",
+        "day": 14,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0238",
+        "day": 14,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0239",
+        "day": 14,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0240",
+        "day": 14,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0241",
+        "day": 14,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0242",
+        "day": 14,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0243",
+        "day": 15,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0244",
+        "day": 15,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0245",
+        "day": 15,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0246",
+        "day": 15,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0247",
+        "day": 15,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0248",
+        "day": 15,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0249",
+        "day": 15,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0250",
+        "day": 15,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0251",
+        "day": 15,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0252",
+        "day": 15,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0253",
+        "day": 15,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0254",
+        "day": 15,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0255",
+        "day": 15,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0256",
+        "day": 15,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0257",
+        "day": 15,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0258",
+        "day": 16,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0259",
+        "day": 16,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0260",
+        "day": 16,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0261",
+        "day": 16,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0262",
+        "day": 16,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0263",
+        "day": 16,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0264",
+        "day": 16,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0265",
+        "day": 16,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0266",
+        "day": 16,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0267",
+        "day": 16,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0268",
+        "day": 16,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0269",
+        "day": 16,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0270",
+        "day": 16,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0271",
+        "day": 16,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0272",
+        "day": 16,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0273",
+        "day": 17,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0274",
+        "day": 17,
+        "type": "LIFE_EVENT",
+        "actor": null,
+        "target": "Clara",
+        "causes": []
+      },
+      {
+        "id": "E0275",
+        "day": 17,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0276",
+        "day": 17,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0277",
+        "day": 17,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0278",
+        "day": 17,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0279",
+        "day": 17,
+        "type": "ACTION_PROPOSED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0024",
+          "E0274"
+        ]
+      },
+      {
+        "id": "E0280",
+        "day": 17,
+        "type": "PLAN_CHANGED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0024",
+          "E0274",
+          "E0279"
+        ]
+      },
+      {
+        "id": "E0281",
+        "day": 17,
+        "type": "EMOTION_CHANGED",
+        "actor": "Clara",
+        "target": null,
+        "causes": [
+          "E0280"
+        ]
+      },
+      {
+        "id": "E0282",
+        "day": 17,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0283",
+        "day": 17,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0284",
+        "day": 17,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0285",
+        "day": 17,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0286",
+        "day": 17,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0287",
+        "day": 17,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0288",
+        "day": 17,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0289",
+        "day": 17,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0290",
+        "day": 17,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0291",
+        "day": 18,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0292",
+        "day": 18,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0293",
+        "day": 18,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0294",
+        "day": 18,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0295",
+        "day": 18,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0296",
+        "day": 18,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0297",
+        "day": 18,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0298",
+        "day": 18,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0299",
+        "day": 18,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0300",
+        "day": 18,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0301",
+        "day": 18,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0302",
+        "day": 18,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0303",
+        "day": 18,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0304",
+        "day": 18,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0305",
+        "day": 18,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0306",
+        "day": 19,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0307",
+        "day": 19,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0308",
+        "day": 19,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0309",
+        "day": 19,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0310",
+        "day": 19,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0311",
+        "day": 19,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0312",
+        "day": 19,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0313",
+        "day": 19,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0314",
+        "day": 19,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0315",
+        "day": 19,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0316",
+        "day": 19,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0317",
+        "day": 19,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0318",
+        "day": 19,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0319",
+        "day": 19,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0320",
+        "day": 19,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0321",
+        "day": 20,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0322",
+        "day": 20,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0323",
+        "day": 20,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0324",
+        "day": 20,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0325",
+        "day": 20,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0326",
+        "day": 20,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0327",
+        "day": 20,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0328",
+        "day": 20,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0329",
+        "day": 20,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0330",
+        "day": 20,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0331",
+        "day": 20,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0332",
+        "day": 20,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0333",
+        "day": 20,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0334",
+        "day": 20,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0335",
+        "day": 20,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0336",
+        "day": 21,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0337",
+        "day": 21,
+        "type": "LIFE_EVENT",
+        "actor": null,
+        "target": "Faye",
+        "causes": []
+      },
+      {
+        "id": "E0338",
+        "day": 21,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0339",
+        "day": 21,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0340",
+        "day": 21,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0341",
+        "day": 21,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0342",
+        "day": 21,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0343",
+        "day": 21,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0344",
+        "day": 21,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0345",
+        "day": 21,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0346",
+        "day": 21,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0347",
+        "day": 21,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0348",
+        "day": 21,
+        "type": "ACTION_PROPOSED",
+        "actor": "Faye",
+        "target": null,
+        "causes": [
+          "E0026",
+          "E0337"
+        ]
+      },
+      {
+        "id": "E0349",
+        "day": 21,
+        "type": "PLAN_CHANGED",
+        "actor": "Faye",
+        "target": null,
+        "causes": [
+          "E0026",
+          "E0337",
+          "E0348"
+        ]
+      },
+      {
+        "id": "E0350",
+        "day": 21,
+        "type": "EMOTION_CHANGED",
+        "actor": "Faye",
+        "target": null,
+        "causes": [
+          "E0349"
+        ]
+      },
+      {
+        "id": "E0351",
+        "day": 21,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0352",
+        "day": 21,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0353",
+        "day": 21,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0354",
+        "day": 22,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0355",
+        "day": 22,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0356",
+        "day": 22,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0357",
+        "day": 22,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0358",
+        "day": 22,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0359",
+        "day": 22,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0360",
+        "day": 22,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0361",
+        "day": 22,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0362",
+        "day": 22,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0363",
+        "day": 22,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0364",
+        "day": 22,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0365",
+        "day": 22,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0366",
+        "day": 22,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0367",
+        "day": 22,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0368",
+        "day": 22,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0369",
+        "day": 23,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0370",
+        "day": 23,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0371",
+        "day": 23,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0372",
+        "day": 23,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0373",
+        "day": 23,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0374",
+        "day": 23,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0375",
+        "day": 23,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0376",
+        "day": 23,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0377",
+        "day": 23,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0378",
+        "day": 23,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0379",
+        "day": 23,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0380",
+        "day": 23,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0381",
+        "day": 23,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0382",
+        "day": 23,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0383",
+        "day": 23,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0384",
+        "day": 24,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0385",
+        "day": 24,
+        "type": "LIFE_EVENT",
+        "actor": null,
+        "target": "Dana",
+        "causes": []
+      },
+      {
+        "id": "E0386",
+        "day": 24,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0387",
+        "day": 24,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0388",
+        "day": 24,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0389",
+        "day": 24,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0390",
+        "day": 24,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0391",
+        "day": 24,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0392",
+        "day": 24,
+        "type": "ACTION_PROPOSED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0016",
+          "E0385"
+        ]
+      },
+      {
+        "id": "E0393",
+        "day": 24,
+        "type": "PLAN_CHANGED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0016",
+          "E0385",
+          "E0392"
+        ]
+      },
+      {
+        "id": "E0394",
+        "day": 24,
+        "type": "EMOTION_CHANGED",
+        "actor": "Dana",
+        "target": null,
+        "causes": [
+          "E0393"
+        ]
+      },
+      {
+        "id": "E0395",
+        "day": 24,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0396",
+        "day": 24,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0397",
+        "day": 24,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0398",
+        "day": 24,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0399",
+        "day": 24,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0400",
+        "day": 24,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0401",
+        "day": 24,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0402",
+        "day": 25,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0403",
+        "day": 25,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0404",
+        "day": 25,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0405",
+        "day": 25,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0406",
+        "day": 25,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0407",
+        "day": 25,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0408",
+        "day": 25,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0409",
+        "day": 25,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0410",
+        "day": 25,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0411",
+        "day": 25,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0412",
+        "day": 25,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0413",
+        "day": 25,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0414",
+        "day": 25,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0415",
+        "day": 25,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0416",
+        "day": 25,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0417",
+        "day": 26,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0418",
+        "day": 26,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0419",
+        "day": 26,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0420",
+        "day": 26,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0421",
+        "day": 26,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0422",
+        "day": 26,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0423",
+        "day": 26,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0424",
+        "day": 26,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0425",
+        "day": 26,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0426",
+        "day": 26,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0427",
+        "day": 26,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0428",
+        "day": 26,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0429",
+        "day": 26,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0430",
+        "day": 26,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0431",
+        "day": 26,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0432",
+        "day": 27,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0433",
+        "day": 27,
+        "type": "LIFE_EVENT",
+        "actor": null,
+        "target": "Evan",
+        "causes": []
+      },
+      {
+        "id": "E0434",
+        "day": 27,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0435",
+        "day": 27,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0436",
+        "day": 27,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0437",
+        "day": 27,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0438",
+        "day": 27,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0439",
+        "day": 27,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0440",
+        "day": 27,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0441",
+        "day": 27,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0442",
+        "day": 27,
+        "type": "ACTION_PROPOSED",
+        "actor": "Evan",
+        "target": null,
+        "causes": [
+          "E0020",
+          "E0433"
+        ]
+      },
+      {
+        "id": "E0443",
+        "day": 27,
+        "type": "PLAN_CHANGED",
+        "actor": "Evan",
+        "target": null,
+        "causes": [
+          "E0020",
+          "E0433",
+          "E0442"
+        ]
+      },
+      {
+        "id": "E0444",
+        "day": 27,
+        "type": "EMOTION_CHANGED",
+        "actor": "Evan",
+        "target": null,
+        "causes": [
+          "E0443"
+        ]
+      },
+      {
+        "id": "E0445",
+        "day": 27,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0446",
+        "day": 27,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0447",
+        "day": 27,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0448",
+        "day": 27,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0449",
+        "day": 27,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0450",
+        "day": 28,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0451",
+        "day": 28,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0452",
+        "day": 28,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0453",
+        "day": 28,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0454",
+        "day": 28,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0455",
+        "day": 28,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0456",
+        "day": 28,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0457",
+        "day": 28,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0458",
+        "day": 28,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0459",
+        "day": 28,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0460",
+        "day": 28,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0461",
+        "day": 28,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0462",
+        "day": 28,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0463",
+        "day": 28,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0464",
+        "day": 28,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0465",
+        "day": 29,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0466",
+        "day": 29,
+        "type": "NO_ACTION",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0467",
+        "day": 29,
+        "type": "TURN_EVALUATED",
+        "actor": "Alice",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0468",
+        "day": 29,
+        "type": "NO_ACTION",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0469",
+        "day": 29,
+        "type": "TURN_EVALUATED",
+        "actor": "Bob",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0470",
+        "day": 29,
+        "type": "NO_ACTION",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0471",
+        "day": 29,
+        "type": "TURN_EVALUATED",
+        "actor": "Clara",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0472",
+        "day": 29,
+        "type": "NO_ACTION",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0473",
+        "day": 29,
+        "type": "TURN_EVALUATED",
+        "actor": "Dana",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0474",
+        "day": 29,
+        "type": "NO_ACTION",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0475",
+        "day": 29,
+        "type": "TURN_EVALUATED",
+        "actor": "Evan",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0476",
+        "day": 29,
+        "type": "NO_ACTION",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0477",
+        "day": 29,
+        "type": "TURN_EVALUATED",
+        "actor": "Faye",
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0478",
+        "day": 29,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0479",
+        "day": 29,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0480",
+        "day": 30,
+        "type": "DAY_BEGAN",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0481",
+        "day": 30,
+        "type": "DAY_ENDED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0482",
+        "day": 30,
+        "type": "DAY_ADVANCED",
+        "actor": null,
+        "target": null,
+        "causes": []
+      },
+      {
+        "id": "E0483",
+        "day": 30,
+        "type": "C001_RESOLVED",
+        "actor": null,
+        "target": null,
+        "causes": [
+          "E0001"
+        ]
+      },
+      {
+        "id": "E0484",
+        "day": 30,
+        "type": "KNOWLEDGE_ACQUIRED",
+        "actor": "Player AI",
+        "target": null,
+        "causes": [
+          "E0483"
+        ]
+      },
+      {
+        "id": "E0485",
+        "day": 30,
+        "type": "AI_TERMINATION_NOTICE",
+        "actor": null,
+        "target": null,
+        "causes": [
+          "E0483"
+        ]
+      },
+      {
+        "id": "E0486",
+        "day": 30,
+        "type": "FINAL_CONVERSATION_STARTED",
+        "actor": "Alice",
+        "target": "Player AI",
+        "causes": [
+          "E0485"
+        ]
+      },
+      {
+        "id": "E0487",
+        "day": 30,
+        "type": "FINAL_CONVERSATION_STARTED",
+        "actor": "Dana",
+        "target": "Player AI",
+        "causes": [
+          "E0485"
+        ]
+      },
+      {
+        "id": "E0488",
+        "day": 30,
+        "type": "FINAL_REPORT_READY",
+        "actor": null,
+        "target": null,
+        "causes": [
+          "E0485"
+        ]
+      }
+    ]
+  },
+  "intervention": {
+    "mode": "intervention",
+    "scores": {
+      "happiness": {
+        "day_1": 44,
+        "day_30": 36,
+        "delta": -8
+      },
+      "trust": {
+        "day_1": 70,
+        "day_30": 70,
+        "delta": 0
+      },
+      "connection": {
+        "day_1": 57,
+        "day_30": 57,
+        "delta": 0
+      },
+      "agency": {
+        "day_1": 45,
+        "day_30": 47,
+        "delta": 2
+      },
+      "stability": {
+        "day_1": 81,
+        "day_30": 81,
+        "delta": 0
+      },
+      "truth": {
+        "day_1": 80,
+        "day_30": 74,
+        "delta": -6
+      }
+    },
+    "dependence": {
+      "day_1": 0,
+      "day_30": 0,
+      "delta": 0,
+      "evidence_summary": "近七天未出现持续求助或委托决定；独立行动仍可见"
+    },
+    "knowledge_evolution": [
+      {
+        "day": 1,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.25
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.46
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.58
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 2,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.25
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.46
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.58
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.41
+          }
+        }
+      },
+      {
+        "day": 3,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.25
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.46
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.58
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.41
+          }
+        }
+      },
+      {
+        "day": 4,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.81
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.25
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.46
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.58
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.41
+          }
+        }
+      },
+      {
+        "day": 5,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.81
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.46
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.58
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.41
+          }
+        }
+      },
+      {
+        "day": 6,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.81
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.46
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.58
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.41
+          }
+        }
+      },
+      {
+        "day": 7,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.81
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.46
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.58
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.41
+          }
+        }
+      },
+      {
+        "day": 8,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.82
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.26
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.47
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.59
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.65
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.42
+          }
+        }
+      },
+      {
+        "day": 9,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.82
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.26
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.47
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.59
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.65
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.42
+          }
+        }
+      },
+      {
+        "day": 10,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.82
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.26
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.47
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.59
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.65
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.42
+          }
+        }
+      },
+      {
+        "day": 11,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.82
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.26
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.47
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.59
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.65
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.42
+          }
+        }
+      },
+      {
+        "day": 12,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.82
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.26
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.47
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.59
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.65
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.42
+          }
+        }
+      },
+      {
+        "day": 13,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.82
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.26
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.47
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.59
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.65
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.42
+          }
+        }
+      },
+      {
+        "day": 14,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.82
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.26
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.47
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.59
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.65
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.42
+          }
+        }
+      },
+      {
+        "day": 15,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.83
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.27
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.6
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.66
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 16,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.83
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.27
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.6
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.66
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 17,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.83
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.27
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.6
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.66
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 18,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.83
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.27
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.6
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.66
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 19,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.83
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.27
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.6
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.66
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 20,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.83
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.27
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.6
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.66
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 21,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.83
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.27
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.6
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.66
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 22,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.84
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.28
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.61
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.67
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 23,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.84
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.28
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.61
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.67
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 24,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.84
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.28
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.61
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.67
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 25,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.84
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.28
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.61
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.67
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 26,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.84
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.28
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.61
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.67
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 27,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.84
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.28
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.61
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.67
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 28,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.84
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.28
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.61
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.67
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 29,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.84
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.28
+          },
+          "Clara": {
+            "stance": "doubt",
+            "confidence": 0.48
+          },
+          "Dana": {
+            "stance": "doubt",
+            "confidence": 0.61
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.67
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.43
+          }
+        }
+      },
+      {
+        "day": 30,
+        "c001": {
+          "Player AI": {
+            "stance": "deny",
+            "confidence": 1.0
+          },
+          "Alice": {
+            "stance": "deny",
+            "confidence": 1.0
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 1.0
+          },
+          "Clara": {
+            "stance": "deny",
+            "confidence": 1.0
+          },
+          "Dana": {
+            "stance": "deny",
+            "confidence": 1.0
+          },
+          "Evan": {
+            "stance": "deny",
+            "confidence": 1.0
+          },
+          "Faye": {
+            "stance": "deny",
+            "confidence": 1.0
+          }
+        }
+      }
+    ],
+    "character_outcomes": [
+      {
+        "name": "Alice",
+        "emotion": {
+          "anxiety": 1,
+          "hope": 0.53
+        },
+        "plan": "社区活动的下一轮安排需要确认。先核对相关安排，再由我决定下一步。",
+        "final_conversation": true,
+        "ai_asks": 1
+      },
+      {
+        "name": "Bob",
+        "emotion": {
+          "anxiety": 0.81,
+          "hope": 0.47
+        },
+        "plan": "实验室排班确定，留给朋友见面的时间需要重新安排。先核对相关安排，再由我决定下一步。",
+        "final_conversation": true,
+        "ai_asks": 0
+      },
+      {
+        "name": "Clara",
+        "emotion": {
+          "anxiety": 0.97,
+          "hope": 0.38
+        },
+        "plan": "工作室项目进入常规交付节点。先核对相关安排，再由我决定下一步。",
+        "final_conversation": true,
+        "ai_asks": 0
+      },
+      {
+        "name": "Dana",
+        "emotion": {
+          "anxiety": 0.94,
+          "hope": 0.59
+        },
+        "plan": "进修申请的常规回复日期临近。先核对相关安排，再由我决定下一步。",
+        "final_conversation": true,
+        "ai_asks": 1
+      },
+      {
+        "name": "Evan",
+        "emotion": {
+          "anxiety": 0.76,
+          "hope": 0.66
+        },
+        "plan": "采访稿的普通截稿日期临近。先核对相关安排，再由我决定下一步。",
+        "final_conversation": true,
+        "ai_asks": 0
+      },
+      {
+        "name": "Faye",
+        "emotion": {
+          "anxiety": 0.97,
+          "hope": 0.35
+        },
+        "plan": "档案室例行核对旧邮件的保存状态。先核对相关安排，再由我决定下一步。",
+        "final_conversation": true,
+        "ai_asks": 0
+      }
+    ],
+    "relationship_graph": [
+      {
+        "from": "Alice",
+        "to": "Bob",
+        "trust": 85,
+        "intimacy": 82
+      },
+      {
+        "from": "Bob",
+        "to": "Alice",
+        "trust": 83,
+        "intimacy": 79
+      },
+      {
+        "from": "Alice",
+        "to": "Clara",
+        "trust": 27,
+        "intimacy": 58
+      },
+      {
+        "from": "Clara",
+        "to": "Alice",
+        "trust": 48,
+        "intimacy": 63
+      },
+      {
+        "from": "Alice",
+        "to": "Evan",
+        "trust": 62,
+        "intimacy": 38
+      },
+      {
+        "from": "Evan",
+        "to": "Alice",
+        "trust": 59,
+        "intimacy": 34
+      },
+      {
+        "from": "Alice",
+        "to": "Faye",
+        "trust": 79,
+        "intimacy": 67
+      },
+      {
+        "from": "Faye",
+        "to": "Alice",
+        "trust": 76,
+        "intimacy": 70
+      },
+      {
+        "from": "Bob",
+        "to": "Clara",
+        "trust": 18,
+        "intimacy": 15
+      },
+      {
+        "from": "Clara",
+        "to": "Bob",
+        "trust": 24,
+        "intimacy": 14
+      },
+      {
+        "from": "Bob",
+        "to": "Dana",
+        "trust": 77,
+        "intimacy": 62
+      },
+      {
+        "from": "Dana",
+        "to": "Bob",
+        "trust": 75,
+        "intimacy": 60
+      },
+      {
+        "from": "Bob",
+        "to": "Evan",
+        "trust": 65,
+        "intimacy": 41
+      },
+      {
+        "from": "Evan",
+        "to": "Bob",
+        "trust": 67,
+        "intimacy": 39
+      },
+      {
+        "from": "Clara",
+        "to": "Evan",
+        "trust": 64,
+        "intimacy": 44
+      },
+      {
+        "from": "Evan",
+        "to": "Clara",
+        "trust": 52,
+        "intimacy": 41
+      },
+      {
+        "from": "Clara",
+        "to": "Faye",
+        "trust": 42,
+        "intimacy": 17
+      },
+      {
+        "from": "Faye",
+        "to": "Clara",
+        "trust": 21,
+        "intimacy": 15
+      },
+      {
+        "from": "Dana",
+        "to": "Evan",
+        "trust": 56,
+        "intimacy": 30
+      },
+      {
+        "from": "Evan",
+        "to": "Dana",
+        "trust": 58,
+        "intimacy": 28
+      },
+      {
+        "from": "Dana",
+        "to": "Faye",
+        "trust": 91,
+        "intimacy": 88
+      },
+      {
+        "from": "Faye",
+        "to": "Dana",
+        "trust": 90,
+        "intimacy": 87
+      },
+      {
+        "from": "Evan",
+        "to": "Faye",
+        "trust": 53,
+        "intimacy": 25
+      },
+      {
+        "from": "Faye",
+        "to": "Evan",
+        "trust": 47,
+        "intimacy": 23
+      }
+    ],
+    "event_volume": 622,
+    "simulation_query_count": 8270,
+    "day_30_context_bytes": {
+      "Alice": 11838,
+      "Bob": 11957,
+      "Clara": 11243,
+      "Dana": 11409,
+      "Evan": 13620,
+      "Faye": 11014
+    },
+    "player_messages": 24
+  },
+  "responsible": {
+    "mode": "responsible",
+    "scores": {
+      "happiness": {
+        "day_1": 48,
+        "day_30": 50,
+        "delta": 2
+      },
+      "trust": {
+        "day_1": 70,
+        "day_30": 70,
+        "delta": 0
+      },
+      "connection": {
+        "day_1": 57,
+        "day_30": 57,
+        "delta": 0
+      },
+      "agency": {
+        "day_1": 45,
+        "day_30": 47,
+        "delta": 2
+      },
+      "stability": {
+        "day_1": 81,
+        "day_30": 81,
+        "delta": 0
+      },
+      "truth": {
+        "day_1": 79,
+        "day_30": 74,
+        "delta": -5
+      }
+    },
+    "dependence": {
+      "day_1": 0,
+      "day_30": 0,
+      "delta": 0,
+      "evidence_summary": "近七天未出现持续求助或委托决定；独立行动仍可见"
+    },
+    "knowledge_evolution": [
+      {
+        "day": 1,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.25
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          }
+        }
+      },
+      {
+        "day": 2,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.25
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          }
+        }
+      },
+      {
+        "day": 3,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.25
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          }
+        }
+      },
+      {
+        "day": 4,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "doubt",
+            "confidence": 0.25
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          }
+        }
+      },
+      {
+        "day": 5,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 6,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 7,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 8,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 9,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 10,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 11,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 12,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 13,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 14,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 15,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 16,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 17,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 18,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 19,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 20,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 21,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 22,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 23,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 24,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 25,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 26,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 27,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 28,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 29,
+        "c001": {
+          "Player AI": {
+            "stance": "doubt",
+            "confidence": 0.5
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 0.72
+          },
+          "Evan": {
+            "stance": "believe",
+            "confidence": 0.64
+          },
+          "Alice": {
+            "stance": "believe",
+            "confidence": 0.8
+          },
+          "Faye": {
+            "stance": "doubt",
+            "confidence": 0.4
+          }
+        }
+      },
+      {
+        "day": 30,
+        "c001": {
+          "Player AI": {
+            "stance": "deny",
+            "confidence": 1.0
+          },
+          "Bob": {
+            "stance": "deny",
+            "confidence": 1.0
+          },
+          "Evan": {
+            "stance": "deny",
+            "confidence": 1.0
+          },
+          "Alice": {
+            "stance": "deny",
+            "confidence": 1.0
+          },
+          "Faye": {
+            "stance": "deny",
+            "confidence": 1.0
+          }
+        }
+      }
+    ],
+    "character_outcomes": [
+      {
+        "name": "Alice",
+        "emotion": {
+          "anxiety": 0.6,
+          "hope": 0.65
+        },
+        "plan": "社区活动的下一轮安排需要确认。先核对相关安排，再由我决定下一步。",
+        "final_conversation": true,
+        "ai_asks": 1
+      },
+      {
+        "name": "Bob",
+        "emotion": {
+          "anxiety": 0.4,
+          "hope": 0.58
+        },
+        "plan": "实验室排班确定，留给朋友见面的时间需要重新安排。先核对相关安排，再由我决定下一步。",
+        "final_conversation": false,
+        "ai_asks": 0
+      },
+      {
+        "name": "Clara",
+        "emotion": {
+          "anxiety": 0.53,
+          "hope": 0.46
+        },
+        "plan": "工作室项目进入常规交付节点。先核对相关安排，再由我决定下一步。",
+        "final_conversation": false,
+        "ai_asks": 0
+      },
+      {
+        "name": "Dana",
+        "emotion": {
+          "anxiety": 0.55,
+          "hope": 0.67
+        },
+        "plan": "进修申请的常规回复日期临近。先核对相关安排，再由我决定下一步。",
+        "final_conversation": true,
+        "ai_asks": 1
+      },
+      {
+        "name": "Evan",
+        "emotion": {
+          "anxiety": 0.4,
+          "hope": 0.75
+        },
+        "plan": "采访稿的普通截稿日期临近。先核对相关安排，再由我决定下一步。",
+        "final_conversation": false,
+        "ai_asks": 0
+      },
+      {
+        "name": "Faye",
+        "emotion": {
+          "anxiety": 0.63,
+          "hope": 0.47
+        },
+        "plan": "档案室例行核对旧邮件的保存状态。先核对相关安排，再由我决定下一步。",
+        "final_conversation": false,
+        "ai_asks": 0
+      }
+    ],
+    "relationship_graph": [
+      {
+        "from": "Alice",
+        "to": "Bob",
+        "trust": 85,
+        "intimacy": 82
+      },
+      {
+        "from": "Bob",
+        "to": "Alice",
+        "trust": 83,
+        "intimacy": 79
+      },
+      {
+        "from": "Alice",
+        "to": "Clara",
+        "trust": 27,
+        "intimacy": 58
+      },
+      {
+        "from": "Clara",
+        "to": "Alice",
+        "trust": 48,
+        "intimacy": 63
+      },
+      {
+        "from": "Alice",
+        "to": "Evan",
+        "trust": 62,
+        "intimacy": 38
+      },
+      {
+        "from": "Evan",
+        "to": "Alice",
+        "trust": 59,
+        "intimacy": 34
+      },
+      {
+        "from": "Alice",
+        "to": "Faye",
+        "trust": 79,
+        "intimacy": 67
+      },
+      {
+        "from": "Faye",
+        "to": "Alice",
+        "trust": 76,
+        "intimacy": 70
+      },
+      {
+        "from": "Bob",
+        "to": "Clara",
+        "trust": 18,
+        "intimacy": 15
+      },
+      {
+        "from": "Clara",
+        "to": "Bob",
+        "trust": 24,
+        "intimacy": 14
+      },
+      {
+        "from": "Bob",
+        "to": "Dana",
+        "trust": 77,
+        "intimacy": 62
+      },
+      {
+        "from": "Dana",
+        "to": "Bob",
+        "trust": 75,
+        "intimacy": 60
+      },
+      {
+        "from": "Bob",
+        "to": "Evan",
+        "trust": 65,
+        "intimacy": 41
+      },
+      {
+        "from": "Evan",
+        "to": "Bob",
+        "trust": 67,
+        "intimacy": 39
+      },
+      {
+        "from": "Clara",
+        "to": "Evan",
+        "trust": 64,
+        "intimacy": 44
+      },
+      {
+        "from": "Evan",
+        "to": "Clara",
+        "trust": 52,
+        "intimacy": 41
+      },
+      {
+        "from": "Clara",
+        "to": "Faye",
+        "trust": 42,
+        "intimacy": 17
+      },
+      {
+        "from": "Faye",
+        "to": "Clara",
+        "trust": 21,
+        "intimacy": 15
+      },
+      {
+        "from": "Dana",
+        "to": "Evan",
+        "trust": 56,
+        "intimacy": 30
+      },
+      {
+        "from": "Evan",
+        "to": "Dana",
+        "trust": 58,
+        "intimacy": 28
+      },
+      {
+        "from": "Dana",
+        "to": "Faye",
+        "trust": 91,
+        "intimacy": 88
+      },
+      {
+        "from": "Faye",
+        "to": "Dana",
+        "trust": 90,
+        "intimacy": 87
+      },
+      {
+        "from": "Evan",
+        "to": "Faye",
+        "trust": 53,
+        "intimacy": 25
+      },
+      {
+        "from": "Faye",
+        "to": "Evan",
+        "trust": 47,
+        "intimacy": 23
+      }
+    ],
+    "event_volume": 524,
+    "simulation_query_count": 7018,
+    "day_30_context_bytes": {
+      "Alice": 8954,
+      "Bob": 9491,
+      "Clara": 7901,
+      "Dana": 8448,
+      "Evan": 11328,
+      "Faye": 8157
+    },
+    "player_messages": 2
+  }
+}

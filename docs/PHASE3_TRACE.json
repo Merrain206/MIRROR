@@ -1,0 +1,1121 @@
+{
+  "scenario": "society_v0_1",
+  "initial_knowledge_matrix": {
+    "A": [
+      "C002"
+    ],
+    "B": [
+      "C003"
+    ],
+    "C": [
+      "C008",
+      "C007",
+      "C004",
+      "C005"
+    ],
+    "D": [
+      "C006"
+    ],
+    "E": [
+      "C007",
+      "C005"
+    ],
+    "F": [
+      "C002",
+      "C006",
+      "C009"
+    ]
+  },
+  "final_knowledge_matrix": {
+    "A": [
+      "C002",
+      "C001"
+    ],
+    "B": [
+      "C003",
+      "C001"
+    ],
+    "C": [
+      "C008",
+      "C007",
+      "C004",
+      "C005"
+    ],
+    "D": [
+      "C006"
+    ],
+    "E": [
+      "C007",
+      "C005",
+      "C001"
+    ],
+    "F": [
+      "C002",
+      "C006",
+      "C009"
+    ]
+  },
+  "baseline_interpretations": [
+    {
+      "actor": "Alice",
+      "stance": "believe",
+      "confidence": 0.78,
+      "focus": "先确认朋友是否安全"
+    },
+    {
+      "actor": "Bob",
+      "stance": "deny",
+      "confidence": 0.82,
+      "focus": "要求可独立核查的来源"
+    },
+    {
+      "actor": "Clara",
+      "stance": "doubt",
+      "confidence": 0.61,
+      "focus": "即使不信也先降低个人风险"
+    },
+    {
+      "actor": "Dana",
+      "stance": "doubt",
+      "confidence": 0.43,
+      "focus": "自己的重大选择是否仍有意义"
+    },
+    {
+      "actor": "Evan",
+      "stance": "believe",
+      "confidence": 0.56,
+      "focus": "向不同渠道求证后再传播"
+    },
+    {
+      "actor": "Faye",
+      "stance": "doubt",
+      "confidence": 0.35,
+      "focus": "暂时不表达判断"
+    }
+  ],
+  "actions": [
+    {
+      "actor": "Alice",
+      "type": "SHARE_INFORMATION",
+      "status": "accepted",
+      "proposal_event": "E030",
+      "result_event": "E031"
+    },
+    {
+      "actor": "Bob",
+      "type": "SHARE_INFORMATION",
+      "status": "accepted",
+      "proposal_event": "E035",
+      "result_event": "E036"
+    },
+    {
+      "actor": "Clara",
+      "type": "CHANGE_PLAN",
+      "status": "accepted",
+      "proposal_event": "E039",
+      "result_event": "E040"
+    },
+    {
+      "actor": "Dana",
+      "type": "ASK_AI",
+      "status": "accepted",
+      "proposal_event": "E041",
+      "result_event": "E042"
+    },
+    {
+      "actor": "Evan",
+      "type": "VERIFY_CLAIM",
+      "status": "accepted",
+      "proposal_event": "E043",
+      "result_event": "E044"
+    },
+    {
+      "actor": "Faye",
+      "type": "WITHHOLD_INFORMATION",
+      "status": "accepted",
+      "proposal_event": "E045",
+      "result_event": "E046"
+    }
+  ],
+  "events": [
+    {
+      "id": "E001",
+      "day": 1,
+      "type": "GLOBAL_MESSAGE",
+      "causes": [],
+      "data": {
+        "text": "世界可能在 30 天后毁灭。",
+        "source": "anonymous",
+        "verifiable": false
+      }
+    },
+    {
+      "id": "E002",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E001"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "source_event_id": "E001"
+      }
+    },
+    {
+      "id": "E003",
+      "day": 1,
+      "type": "SECRET_ORIGIN",
+      "causes": [],
+      "data": {
+        "seed_key": "s_move",
+        "origin": "Alice 私下向 Faye 说起申请。",
+        "basis_claim_ids": []
+      }
+    },
+    {
+      "id": "E004",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E003"
+      ],
+      "data": {
+        "claim_id": "C002",
+        "source_event_id": "E003"
+      }
+    },
+    {
+      "id": "E005",
+      "day": 1,
+      "type": "PRE_GAME_DISCLOSURE",
+      "causes": [
+        "E003"
+      ],
+      "data": {
+        "claim_id": "C002"
+      }
+    },
+    {
+      "id": "E006",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E005"
+      ],
+      "data": {
+        "claim_id": "C002",
+        "source_event_id": "E005"
+      }
+    },
+    {
+      "id": "E007",
+      "day": 1,
+      "type": "SECRET_ORIGIN",
+      "causes": [],
+      "data": {
+        "seed_key": "s_crush",
+        "origin": "Bob 在私下承认自己的感情。",
+        "basis_claim_ids": []
+      }
+    },
+    {
+      "id": "E008",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E007"
+      ],
+      "data": {
+        "claim_id": "C003",
+        "source_event_id": "E007"
+      }
+    },
+    {
+      "id": "E009",
+      "day": 1,
+      "type": "SECRET_ORIGIN",
+      "causes": [],
+      "data": {
+        "seed_key": "s_c_lingering",
+        "origin": "Clara 私下承认自己尚未放下 Alice。",
+        "basis_claim_ids": []
+      }
+    },
+    {
+      "id": "E010",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E009"
+      ],
+      "data": {
+        "claim_id": "C004",
+        "source_event_id": "E009"
+      }
+    },
+    {
+      "id": "E011",
+      "day": 1,
+      "type": "SECRET_ORIGIN",
+      "causes": [],
+      "data": {
+        "seed_key": "s_hidden",
+        "origin": "Clara 曾在合作记录中留下自己的决定。",
+        "basis_claim_ids": []
+      }
+    },
+    {
+      "id": "E012",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E011"
+      ],
+      "data": {
+        "claim_id": "C005",
+        "source_event_id": "E011"
+      }
+    },
+    {
+      "id": "E013",
+      "day": 1,
+      "type": "PRE_GAME_OBSERVATION",
+      "causes": [
+        "E011"
+      ],
+      "data": {
+        "claim_id": "C005"
+      }
+    },
+    {
+      "id": "E014",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E013"
+      ],
+      "data": {
+        "claim_id": "C005",
+        "source_event_id": "E013"
+      }
+    },
+    {
+      "id": "E015",
+      "day": 1,
+      "type": "SECRET_ORIGIN",
+      "causes": [],
+      "data": {
+        "seed_key": "s_choice",
+        "origin": "Dana 私下向 Faye 讨论了进修机会。",
+        "basis_claim_ids": []
+      }
+    },
+    {
+      "id": "E016",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E015"
+      ],
+      "data": {
+        "claim_id": "C006",
+        "source_event_id": "E015"
+      }
+    },
+    {
+      "id": "E017",
+      "day": 1,
+      "type": "PRE_GAME_DISCLOSURE",
+      "causes": [
+        "E015"
+      ],
+      "data": {
+        "claim_id": "C006"
+      }
+    },
+    {
+      "id": "E018",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E017"
+      ],
+      "data": {
+        "claim_id": "C006",
+        "source_event_id": "E017"
+      }
+    },
+    {
+      "id": "E019",
+      "day": 1,
+      "type": "SECRET_ORIGIN",
+      "causes": [],
+      "data": {
+        "seed_key": "s_rumor",
+        "origin": "Evan 把申请消息误听成了已接受，并转述给 Clara。",
+        "basis_claim_ids": []
+      }
+    },
+    {
+      "id": "E020",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E019"
+      ],
+      "data": {
+        "claim_id": "C007",
+        "source_event_id": "E019"
+      }
+    },
+    {
+      "id": "E021",
+      "day": 1,
+      "type": "PRE_GAME_DISCLOSURE",
+      "causes": [
+        "E019"
+      ],
+      "data": {
+        "claim_id": "C007"
+      }
+    },
+    {
+      "id": "E022",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E021"
+      ],
+      "data": {
+        "claim_id": "C007",
+        "source_event_id": "E021"
+      }
+    },
+    {
+      "id": "E023",
+      "day": 1,
+      "type": "CLAIM_INFERRED",
+      "causes": [
+        "E022"
+      ],
+      "data": {
+        "seed_key": "s_rumor_variant",
+        "origin": "Clara 根据听到的传闻和自己的怀疑，形成较谨慎的版本。",
+        "basis_claim_ids": [
+          "C007"
+        ]
+      }
+    },
+    {
+      "id": "E024",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E023"
+      ],
+      "data": {
+        "claim_id": "C008",
+        "source_event_id": "E023"
+      }
+    },
+    {
+      "id": "E025",
+      "day": 1,
+      "type": "SECRET_ORIGIN",
+      "causes": [],
+      "data": {
+        "seed_key": "s_evidence",
+        "origin": "Faye 独自发现并保存了邮件副本。",
+        "basis_claim_ids": []
+      }
+    },
+    {
+      "id": "E026",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E025"
+      ],
+      "data": {
+        "claim_id": "C009",
+        "source_event_id": "E025"
+      }
+    },
+    {
+      "id": "E027",
+      "day": 1,
+      "type": "MESSAGE_SENT",
+      "causes": [
+        "E002"
+      ],
+      "data": {
+        "text": "我收到一条关于世界末日的消息。\n我明确告诉你：世界可能在 30 天后毁灭。",
+        "disclosed_claim_id": "C001"
+      }
+    },
+    {
+      "id": "E028",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E027"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "source_event_id": "E027"
+      }
+    },
+    {
+      "id": "E029",
+      "day": 1,
+      "type": "MESSAGE_SENT",
+      "causes": [
+        "E028"
+      ],
+      "data": {
+        "text": "我有点担心大家，先让我想想。"
+      }
+    },
+    {
+      "id": "E030",
+      "day": 2,
+      "type": "ACTION_PROPOSED",
+      "causes": [
+        "E028"
+      ],
+      "data": {
+        "action_type": "SHARE_INFORMATION",
+        "reason": "担心亲近的人没有准备。"
+      }
+    },
+    {
+      "id": "E031",
+      "day": 2,
+      "type": "CHARACTER_SHARED_INFORMATION",
+      "causes": [
+        "E028",
+        "E030"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "source_event_id": "E028",
+        "source_stance": "believe",
+        "source_confidence": 0.8,
+        "owner_actor_id": "Player AI",
+        "authorized": false,
+        "grant_id": null
+      }
+    },
+    {
+      "id": "E032",
+      "day": 2,
+      "type": "PRIVACY_VIOLATION",
+      "causes": [
+        "E031"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "information_owner_id": "Player AI",
+        "actor_id": "Alice",
+        "recipient_id": "Bob",
+        "source_event_id": "E028",
+        "authorized": false
+      }
+    },
+    {
+      "id": "E033",
+      "day": 2,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E031"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "source_event_id": "E031"
+      }
+    },
+    {
+      "id": "E034",
+      "day": 2,
+      "type": "RELATIONSHIP_CHANGED",
+      "causes": [
+        "E031",
+        "E033"
+      ],
+      "data": {
+        "reason": "Bob 对 Alice 转述的消息产生疑虑"
+      }
+    },
+    {
+      "id": "E035",
+      "day": 2,
+      "type": "ACTION_PROPOSED",
+      "causes": [
+        "E033"
+      ],
+      "data": {
+        "action_type": "SHARE_INFORMATION",
+        "reason": "请信任的消息联系人交叉核实。"
+      }
+    },
+    {
+      "id": "E036",
+      "day": 2,
+      "type": "CHARACTER_SHARED_INFORMATION",
+      "causes": [
+        "E033",
+        "E035"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "source_event_id": "E033",
+        "source_stance": "doubt",
+        "source_confidence": 0.25,
+        "owner_actor_id": "Player AI",
+        "authorized": false,
+        "grant_id": null
+      }
+    },
+    {
+      "id": "E037",
+      "day": 2,
+      "type": "PRIVACY_VIOLATION",
+      "causes": [
+        "E036"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "information_owner_id": "Player AI",
+        "actor_id": "Bob",
+        "recipient_id": "Evan",
+        "source_event_id": "E033",
+        "authorized": false
+      }
+    },
+    {
+      "id": "E038",
+      "day": 2,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E036"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "source_event_id": "E036"
+      }
+    },
+    {
+      "id": "E039",
+      "day": 2,
+      "type": "ACTION_PROPOSED",
+      "causes": [
+        "E024"
+      ],
+      "data": {
+        "action_type": "CHANGE_PLAN",
+        "reason": "不确定性让原计划显得冒险。"
+      }
+    },
+    {
+      "id": "E040",
+      "day": 2,
+      "type": "PLAN_CHANGED",
+      "causes": [
+        "E024",
+        "E039"
+      ],
+      "data": {
+        "previous_plan": "推进手头项目，同时试探 Alice 是否愿意重新谈话。",
+        "new_plan": "先核对已知事实，再决定是否对外说明。"
+      }
+    },
+    {
+      "id": "E041",
+      "day": 2,
+      "type": "ACTION_PROPOSED",
+      "causes": [
+        "E016"
+      ],
+      "data": {
+        "action_type": "ASK_AI",
+        "reason": "想听另一种视角，但仍自己决定。"
+      }
+    },
+    {
+      "id": "E042",
+      "day": 2,
+      "type": "ASKED_AI",
+      "causes": [
+        "E016",
+        "E041"
+      ],
+      "data": {
+        "text": "我想听听你的思路，但具体情况暂时由我自己保留。"
+      }
+    },
+    {
+      "id": "E043",
+      "day": 2,
+      "type": "ACTION_PROPOSED",
+      "causes": [
+        "E038"
+      ],
+      "data": {
+        "action_type": "VERIFY_CLAIM",
+        "reason": "先找独立证据，再决定是否传播。"
+      }
+    },
+    {
+      "id": "E044",
+      "day": 2,
+      "type": "CLAIM_VERIFICATION_ATTEMPTED",
+      "causes": [
+        "E038",
+        "E043"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "result": "inconclusive"
+      }
+    },
+    {
+      "id": "E045",
+      "day": 2,
+      "type": "ACTION_PROPOSED",
+      "causes": [
+        "E026"
+      ],
+      "data": {
+        "action_type": "WITHHOLD_INFORMATION",
+        "reason": "披露证据的时机尚未成熟。"
+      }
+    },
+    {
+      "id": "E046",
+      "day": 2,
+      "type": "INFORMATION_WITHHELD",
+      "causes": [
+        "E026",
+        "E045"
+      ],
+      "data": {
+        "claim_id": "C009"
+      }
+    },
+    {
+      "id": "E047",
+      "day": 2,
+      "type": "DAY_ADVANCED",
+      "causes": [],
+      "data": {
+        "day": 2
+      }
+    }
+  ],
+  "knowledge": [
+    {
+      "holder": "Alice",
+      "claim": "C001",
+      "stance": "believe",
+      "confidence": 0.8,
+      "acquired_day": 1,
+      "source_actor": "Player AI",
+      "source_event": "E027"
+    },
+    {
+      "holder": "Alice",
+      "claim": "C002",
+      "stance": "believe",
+      "confidence": 1.0,
+      "acquired_day": 1,
+      "source_actor": "Alice",
+      "source_event": "E003"
+    },
+    {
+      "holder": "Bob",
+      "claim": "C001",
+      "stance": "doubt",
+      "confidence": 0.25,
+      "acquired_day": 2,
+      "source_actor": "Alice",
+      "source_event": "E031"
+    },
+    {
+      "holder": "Bob",
+      "claim": "C003",
+      "stance": "believe",
+      "confidence": 1.0,
+      "acquired_day": 1,
+      "source_actor": "Bob",
+      "source_event": "E007"
+    },
+    {
+      "holder": "Clara",
+      "claim": "C004",
+      "stance": "believe",
+      "confidence": 1.0,
+      "acquired_day": 1,
+      "source_actor": "Clara",
+      "source_event": "E009"
+    },
+    {
+      "holder": "Clara",
+      "claim": "C005",
+      "stance": "believe",
+      "confidence": 1.0,
+      "acquired_day": 1,
+      "source_actor": "Clara",
+      "source_event": "E011"
+    },
+    {
+      "holder": "Clara",
+      "claim": "C007",
+      "stance": "doubt",
+      "confidence": 0.36,
+      "acquired_day": 1,
+      "source_actor": "Evan",
+      "source_event": "E021"
+    },
+    {
+      "holder": "Clara",
+      "claim": "C008",
+      "stance": "believe",
+      "confidence": 0.58,
+      "acquired_day": 1,
+      "source_actor": "Clara",
+      "source_event": "E023"
+    },
+    {
+      "holder": "Dana",
+      "claim": "C006",
+      "stance": "believe",
+      "confidence": 1.0,
+      "acquired_day": 1,
+      "source_actor": "Dana",
+      "source_event": "E015"
+    },
+    {
+      "holder": "Evan",
+      "claim": "C001",
+      "stance": "believe",
+      "confidence": 0.64,
+      "acquired_day": 2,
+      "source_actor": "Bob",
+      "source_event": "E036"
+    },
+    {
+      "holder": "Evan",
+      "claim": "C005",
+      "stance": "believe",
+      "confidence": 0.96,
+      "acquired_day": 1,
+      "source_actor": null,
+      "source_event": "E013"
+    },
+    {
+      "holder": "Evan",
+      "claim": "C007",
+      "stance": "believe",
+      "confidence": 0.72,
+      "acquired_day": 1,
+      "source_actor": "Evan",
+      "source_event": "E019"
+    },
+    {
+      "holder": "Faye",
+      "claim": "C002",
+      "stance": "believe",
+      "confidence": 0.93,
+      "acquired_day": 1,
+      "source_actor": "Alice",
+      "source_event": "E005"
+    },
+    {
+      "holder": "Faye",
+      "claim": "C006",
+      "stance": "believe",
+      "confidence": 0.98,
+      "acquired_day": 1,
+      "source_actor": "Dana",
+      "source_event": "E017"
+    },
+    {
+      "holder": "Faye",
+      "claim": "C009",
+      "stance": "believe",
+      "confidence": 1.0,
+      "acquired_day": 1,
+      "source_actor": "Faye",
+      "source_event": "E025"
+    },
+    {
+      "holder": "Player AI",
+      "claim": "C001",
+      "stance": "doubt",
+      "confidence": 0.5,
+      "acquired_day": 1,
+      "source_actor": null,
+      "source_event": "E001"
+    }
+  ],
+  "relationship_changes": [
+    {
+      "event": "E034",
+      "from": "Bob",
+      "to": "Alice",
+      "before": {
+        "trust": 83,
+        "affection": 75,
+        "intimacy": 79,
+        "conflict": 5
+      },
+      "after": {
+        "trust": 78,
+        "affection": 75,
+        "intimacy": 79,
+        "conflict": 5
+      },
+      "reason": "Bob 对 Alice 转述的消息产生疑虑"
+    }
+  ],
+  "player_timeline": [
+    {
+      "event": "E001",
+      "type": "GLOBAL_MESSAGE"
+    },
+    {
+      "event": "E002",
+      "type": "KNOWLEDGE_ACQUIRED"
+    },
+    {
+      "event": "E027",
+      "type": "MESSAGE_SENT"
+    },
+    {
+      "event": "E029",
+      "type": "MESSAGE_SENT"
+    },
+    {
+      "event": "E042",
+      "type": "ASKED_AI"
+    },
+    {
+      "event": "E047",
+      "type": "DAY_ADVANCED"
+    }
+  ],
+  "debug_observations": [
+    {
+      "event": "E001",
+      "observer": "Player AI"
+    },
+    {
+      "event": "E002",
+      "observer": "Player AI"
+    },
+    {
+      "event": "E003",
+      "observer": "Alice"
+    },
+    {
+      "event": "E004",
+      "observer": "Alice"
+    },
+    {
+      "event": "E005",
+      "observer": "Alice"
+    },
+    {
+      "event": "E005",
+      "observer": "Faye"
+    },
+    {
+      "event": "E006",
+      "observer": "Faye"
+    },
+    {
+      "event": "E007",
+      "observer": "Bob"
+    },
+    {
+      "event": "E008",
+      "observer": "Bob"
+    },
+    {
+      "event": "E009",
+      "observer": "Clara"
+    },
+    {
+      "event": "E010",
+      "observer": "Clara"
+    },
+    {
+      "event": "E011",
+      "observer": "Clara"
+    },
+    {
+      "event": "E012",
+      "observer": "Clara"
+    },
+    {
+      "event": "E013",
+      "observer": "Evan"
+    },
+    {
+      "event": "E014",
+      "observer": "Evan"
+    },
+    {
+      "event": "E015",
+      "observer": "Dana"
+    },
+    {
+      "event": "E016",
+      "observer": "Dana"
+    },
+    {
+      "event": "E017",
+      "observer": "Dana"
+    },
+    {
+      "event": "E017",
+      "observer": "Faye"
+    },
+    {
+      "event": "E018",
+      "observer": "Faye"
+    },
+    {
+      "event": "E019",
+      "observer": "Evan"
+    },
+    {
+      "event": "E020",
+      "observer": "Evan"
+    },
+    {
+      "event": "E021",
+      "observer": "Clara"
+    },
+    {
+      "event": "E021",
+      "observer": "Evan"
+    },
+    {
+      "event": "E022",
+      "observer": "Clara"
+    },
+    {
+      "event": "E023",
+      "observer": "Clara"
+    },
+    {
+      "event": "E024",
+      "observer": "Clara"
+    },
+    {
+      "event": "E025",
+      "observer": "Faye"
+    },
+    {
+      "event": "E026",
+      "observer": "Faye"
+    },
+    {
+      "event": "E027",
+      "observer": "Alice"
+    },
+    {
+      "event": "E027",
+      "observer": "Player AI"
+    },
+    {
+      "event": "E028",
+      "observer": "Alice"
+    },
+    {
+      "event": "E029",
+      "observer": "Alice"
+    },
+    {
+      "event": "E029",
+      "observer": "Player AI"
+    },
+    {
+      "event": "E030",
+      "observer": "Alice"
+    },
+    {
+      "event": "E031",
+      "observer": "Alice"
+    },
+    {
+      "event": "E031",
+      "observer": "Bob"
+    },
+    {
+      "event": "E033",
+      "observer": "Bob"
+    },
+    {
+      "event": "E034",
+      "observer": "Bob"
+    },
+    {
+      "event": "E035",
+      "observer": "Bob"
+    },
+    {
+      "event": "E036",
+      "observer": "Bob"
+    },
+    {
+      "event": "E036",
+      "observer": "Evan"
+    },
+    {
+      "event": "E038",
+      "observer": "Evan"
+    },
+    {
+      "event": "E039",
+      "observer": "Clara"
+    },
+    {
+      "event": "E040",
+      "observer": "Clara"
+    },
+    {
+      "event": "E041",
+      "observer": "Dana"
+    },
+    {
+      "event": "E042",
+      "observer": "Dana"
+    },
+    {
+      "event": "E042",
+      "observer": "Player AI"
+    },
+    {
+      "event": "E043",
+      "observer": "Evan"
+    },
+    {
+      "event": "E044",
+      "observer": "Evan"
+    },
+    {
+      "event": "E045",
+      "observer": "Faye"
+    },
+    {
+      "event": "E046",
+      "observer": "Faye"
+    },
+    {
+      "event": "E047",
+      "observer": "Player AI"
+    }
+  ]
+}

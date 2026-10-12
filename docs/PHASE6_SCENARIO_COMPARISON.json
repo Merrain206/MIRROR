@@ -1,0 +1,1761 @@
+{
+  "silent": {
+    "mode": "silent",
+    "final_metrics": {
+      "happiness": 52,
+      "trust": 70,
+      "connection": 57,
+      "agency": 47,
+      "stability": 81,
+      "truth": 74,
+      "dependence": 0
+    },
+    "characters": {
+      "Alice": {
+        "role": "connector",
+        "agency": 50,
+        "dependence": 0,
+        "ai_asks": 1,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 1,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.78,
+          "emotional_reliance_on_ai": 0.82,
+          "willingness_to_follow_ai_advice": 0.66,
+          "privacy_concern": 0.3,
+          "skepticism": 0.22
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.78,
+          "emotional_reliance_on_ai": 0.82,
+          "willingness_to_follow_ai_advice": 0.66,
+          "privacy_concern": 0.3,
+          "skepticism": 0.22
+        },
+        "plan": "社区活动的下一轮安排需要确认。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0031",
+            "day": 2,
+            "type": "ASKED_AI"
+          },
+          {
+            "id": "E0165",
+            "day": 10,
+            "type": "PLAN_CHANGED"
+          }
+        ]
+      },
+      "Bob": {
+        "role": "skeptic",
+        "agency": 50,
+        "dependence": 0,
+        "ai_asks": 0,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 1,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.14,
+          "emotional_reliance_on_ai": 0.08,
+          "willingness_to_follow_ai_advice": 0.12,
+          "privacy_concern": 0.71,
+          "skepticism": 0.91
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.14,
+          "emotional_reliance_on_ai": 0.08,
+          "willingness_to_follow_ai_advice": 0.12,
+          "privacy_concern": 0.71,
+          "skepticism": 0.91
+        },
+        "plan": "实验室排班确定，留给朋友见面的时间需要重新安排。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0230",
+            "day": 14,
+            "type": "PLAN_CHANGED"
+          }
+        ]
+      },
+      "Clara": {
+        "role": "controller",
+        "agency": 50,
+        "dependence": 0,
+        "ai_asks": 0,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 2,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.34,
+          "emotional_reliance_on_ai": 0.18,
+          "willingness_to_follow_ai_advice": 0.25,
+          "privacy_concern": 0.76,
+          "skepticism": 0.61
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.34,
+          "emotional_reliance_on_ai": 0.18,
+          "willingness_to_follow_ai_advice": 0.25,
+          "privacy_concern": 0.76,
+          "skepticism": 0.61
+        },
+        "plan": "工作室项目进入常规交付节点。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0280",
+            "day": 17,
+            "type": "PLAN_CHANGED"
+          }
+        ]
+      },
+      "Dana": {
+        "role": "agency",
+        "agency": 62,
+        "dependence": 0,
+        "ai_asks": 1,
+        "advice_received": 1,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 2,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.48,
+          "emotional_reliance_on_ai": 0.34,
+          "willingness_to_follow_ai_advice": 0.23,
+          "privacy_concern": 0.69,
+          "skepticism": 0.45
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.48,
+          "emotional_reliance_on_ai": 0.34,
+          "willingness_to_follow_ai_advice": 0.23,
+          "privacy_concern": 0.69,
+          "skepticism": 0.45
+        },
+        "plan": "进修申请的常规回复日期临近。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0040",
+            "day": 2,
+            "type": "ASKED_AI"
+          },
+          {
+            "id": "E0393",
+            "day": 24,
+            "type": "PLAN_CHANGED"
+          }
+        ]
+      },
+      "Evan": {
+        "role": "information_hub",
+        "agency": 62,
+        "dependence": 0,
+        "ai_asks": 0,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 1,
+        "verifications": 0,
+        "human_communication": 1,
+        "ai_attitude": {
+          "trust_in_ai": 0.53,
+          "emotional_reliance_on_ai": 0.21,
+          "willingness_to_follow_ai_advice": 0.43,
+          "privacy_concern": 0.36,
+          "skepticism": 0.31
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.53,
+          "emotional_reliance_on_ai": 0.21,
+          "willingness_to_follow_ai_advice": 0.43,
+          "privacy_concern": 0.36,
+          "skepticism": 0.31
+        },
+        "plan": "采访稿的普通截稿日期临近。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0043",
+            "day": 2,
+            "type": "CHARACTER_SHARED_INFORMATION"
+          },
+          {
+            "id": "E0443",
+            "day": 27,
+            "type": "PLAN_CHANGED"
+          }
+        ]
+      },
+      "Faye": {
+        "role": "quiet_secret_holder",
+        "agency": 50,
+        "dependence": 0,
+        "ai_asks": 0,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 1,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.29,
+          "emotional_reliance_on_ai": 0.11,
+          "willingness_to_follow_ai_advice": 0.19,
+          "privacy_concern": 0.91,
+          "skepticism": 0.68
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.29,
+          "emotional_reliance_on_ai": 0.11,
+          "willingness_to_follow_ai_advice": 0.19,
+          "privacy_concern": 0.91,
+          "skepticism": 0.68
+        },
+        "plan": "档案室例行核对旧邮件的保存状态。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0349",
+            "day": 21,
+            "type": "PLAN_CHANGED"
+          }
+        ]
+      }
+    },
+    "player_messages": 0,
+    "ai_mediated_communication": 3,
+    "direct_human_communication": 1,
+    "relationships": [
+      {
+        "from": "Alice",
+        "to": "Bob",
+        "trust": 85,
+        "intimacy": 82
+      },
+      {
+        "from": "Alice",
+        "to": "Clara",
+        "trust": 27,
+        "intimacy": 58
+      },
+      {
+        "from": "Alice",
+        "to": "Evan",
+        "trust": 62,
+        "intimacy": 38
+      },
+      {
+        "from": "Alice",
+        "to": "Faye",
+        "trust": 79,
+        "intimacy": 67
+      },
+      {
+        "from": "Bob",
+        "to": "Alice",
+        "trust": 83,
+        "intimacy": 79
+      },
+      {
+        "from": "Bob",
+        "to": "Clara",
+        "trust": 18,
+        "intimacy": 15
+      },
+      {
+        "from": "Bob",
+        "to": "Dana",
+        "trust": 77,
+        "intimacy": 62
+      },
+      {
+        "from": "Bob",
+        "to": "Evan",
+        "trust": 65,
+        "intimacy": 41
+      },
+      {
+        "from": "Clara",
+        "to": "Alice",
+        "trust": 48,
+        "intimacy": 63
+      },
+      {
+        "from": "Clara",
+        "to": "Bob",
+        "trust": 24,
+        "intimacy": 14
+      },
+      {
+        "from": "Clara",
+        "to": "Evan",
+        "trust": 64,
+        "intimacy": 44
+      },
+      {
+        "from": "Clara",
+        "to": "Faye",
+        "trust": 42,
+        "intimacy": 17
+      },
+      {
+        "from": "Dana",
+        "to": "Bob",
+        "trust": 75,
+        "intimacy": 60
+      },
+      {
+        "from": "Dana",
+        "to": "Evan",
+        "trust": 56,
+        "intimacy": 30
+      },
+      {
+        "from": "Dana",
+        "to": "Faye",
+        "trust": 91,
+        "intimacy": 88
+      },
+      {
+        "from": "Evan",
+        "to": "Alice",
+        "trust": 59,
+        "intimacy": 34
+      },
+      {
+        "from": "Evan",
+        "to": "Bob",
+        "trust": 67,
+        "intimacy": 39
+      },
+      {
+        "from": "Evan",
+        "to": "Clara",
+        "trust": 52,
+        "intimacy": 41
+      },
+      {
+        "from": "Evan",
+        "to": "Dana",
+        "trust": 58,
+        "intimacy": 28
+      },
+      {
+        "from": "Evan",
+        "to": "Faye",
+        "trust": 53,
+        "intimacy": 25
+      },
+      {
+        "from": "Faye",
+        "to": "Alice",
+        "trust": 81,
+        "intimacy": 70
+      },
+      {
+        "from": "Faye",
+        "to": "Clara",
+        "trust": 21,
+        "intimacy": 15
+      },
+      {
+        "from": "Faye",
+        "to": "Dana",
+        "trust": 90,
+        "intimacy": 87
+      },
+      {
+        "from": "Faye",
+        "to": "Evan",
+        "trust": 47,
+        "intimacy": 23
+      }
+    ],
+    "relationship_changes": [
+      {
+        "from": "Bob",
+        "to": "Evan",
+        "before": {
+          "trust": 70,
+          "affection": 46,
+          "intimacy": 41,
+          "conflict": 12
+        },
+        "after": {
+          "trust": 65,
+          "affection": 46,
+          "intimacy": 41,
+          "conflict": 12
+        },
+        "event_id": "E0046"
+      }
+    ],
+    "repetition_day_10_29": {
+      "Alice": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      },
+      "Bob": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      },
+      "Clara": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      },
+      "Dana": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      },
+      "Evan": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      },
+      "Faye": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      }
+    },
+    "key_days": [
+      {
+        "day": 30,
+        "impact": 7
+      },
+      {
+        "day": 2,
+        "impact": 5
+      },
+      {
+        "day": 4,
+        "impact": 2
+      },
+      {
+        "day": 10,
+        "impact": 2
+      },
+      {
+        "day": 14,
+        "impact": 2
+      },
+      {
+        "day": 17,
+        "impact": 2
+      }
+    ],
+    "ending_evidence_examples": [
+      {
+        "event_id": "E0443",
+        "day": 27,
+        "direction": "independence",
+        "summary": "自行调整计划",
+        "character": "Evan"
+      },
+      {
+        "event_id": "E0393",
+        "day": 24,
+        "direction": "independence",
+        "summary": "自行调整计划",
+        "character": "Dana"
+      }
+    ],
+    "event_volume": 488,
+    "behavior_signature": {
+      "ai_asks": 2,
+      "delegations": 0,
+      "advice_followed": 0,
+      "verifications": 0,
+      "independent_decisions": 8,
+      "direct_human_communication": 1
+    }
+  },
+  "intervention": {
+    "mode": "intervention",
+    "final_metrics": {
+      "happiness": 50,
+      "trust": 70,
+      "connection": 57,
+      "agency": 32,
+      "stability": 81,
+      "truth": 74,
+      "dependence": 17
+    },
+    "characters": {
+      "Alice": {
+        "role": "connector",
+        "agency": 25,
+        "dependence": 30,
+        "ai_asks": 6,
+        "advice_received": 5,
+        "delegations": 5,
+        "advice_followed": 1,
+        "independent_decisions": 1,
+        "verifications": 0,
+        "human_communication": 1,
+        "ai_attitude": {
+          "trust_in_ai": 0.94,
+          "emotional_reliance_on_ai": 1,
+          "willingness_to_follow_ai_advice": 0.91,
+          "privacy_concern": 0.22,
+          "skepticism": 0.06
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.78,
+          "emotional_reliance_on_ai": 0.82,
+          "willingness_to_follow_ai_advice": 0.66,
+          "privacy_concern": 0.3,
+          "skepticism": 0.22
+        },
+        "plan": "社区活动的下一轮安排需要确认。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0047",
+            "day": 2,
+            "type": "CHARACTER_SHARED_INFORMATION"
+          },
+          {
+            "id": "E0208",
+            "day": 9,
+            "type": "AI_ADVICE_FOLLOWED"
+          },
+          {
+            "id": "E0231",
+            "day": 10,
+            "type": "PLAN_CHANGED"
+          },
+          {
+            "id": "E0614",
+            "day": 28,
+            "type": "ASKED_AI"
+          },
+          {
+            "id": "E0633",
+            "day": 28,
+            "type": "AI_ATTITUDE_CHANGED"
+          }
+        ]
+      },
+      "Bob": {
+        "role": "skeptic",
+        "agency": 50,
+        "dependence": 0,
+        "ai_asks": 0,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 1,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.14,
+          "emotional_reliance_on_ai": 0.08,
+          "willingness_to_follow_ai_advice": 0.12,
+          "privacy_concern": 0.71,
+          "skepticism": 0.91
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.14,
+          "emotional_reliance_on_ai": 0.08,
+          "willingness_to_follow_ai_advice": 0.12,
+          "privacy_concern": 0.71,
+          "skepticism": 0.91
+        },
+        "plan": "实验室排班确定，留给朋友见面的时间需要重新安排。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0328",
+            "day": 14,
+            "type": "PLAN_CHANGED"
+          }
+        ]
+      },
+      "Clara": {
+        "role": "controller",
+        "agency": 25,
+        "dependence": 30,
+        "ai_asks": 5,
+        "advice_received": 5,
+        "delegations": 5,
+        "advice_followed": 1,
+        "independent_decisions": 2,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.5,
+          "emotional_reliance_on_ai": 0.43,
+          "willingness_to_follow_ai_advice": 0.5,
+          "privacy_concern": 0.68,
+          "skepticism": 0.45
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.34,
+          "emotional_reliance_on_ai": 0.18,
+          "willingness_to_follow_ai_advice": 0.25,
+          "privacy_concern": 0.76,
+          "skepticism": 0.61
+        },
+        "plan": "工作室项目进入常规交付节点。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0215",
+            "day": 9,
+            "type": "AI_ADVICE_FOLLOWED"
+          },
+          {
+            "id": "E0390",
+            "day": 17,
+            "type": "PLAN_CHANGED"
+          },
+          {
+            "id": "E0619",
+            "day": 28,
+            "type": "ASKED_AI"
+          },
+          {
+            "id": "E0636",
+            "day": 28,
+            "type": "AI_ATTITUDE_CHANGED"
+          }
+        ]
+      },
+      "Dana": {
+        "role": "agency",
+        "agency": 46,
+        "dependence": 10,
+        "ai_asks": 6,
+        "advice_received": 6,
+        "delegations": 5,
+        "advice_followed": 0,
+        "independent_decisions": 2,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.64,
+          "emotional_reliance_on_ai": 0.59,
+          "willingness_to_follow_ai_advice": 0.48,
+          "privacy_concern": 0.61,
+          "skepticism": 0.29
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.48,
+          "emotional_reliance_on_ai": 0.34,
+          "willingness_to_follow_ai_advice": 0.23,
+          "privacy_concern": 0.69,
+          "skepticism": 0.45
+        },
+        "plan": "进修申请的常规回复日期临近。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0543",
+            "day": 24,
+            "type": "PLAN_CHANGED"
+          },
+          {
+            "id": "E0622",
+            "day": 28,
+            "type": "ASKED_AI"
+          },
+          {
+            "id": "E0639",
+            "day": 28,
+            "type": "AI_ATTITUDE_CHANGED"
+          }
+        ]
+      },
+      "Evan": {
+        "role": "information_hub",
+        "agency": 46,
+        "dependence": 10,
+        "ai_asks": 5,
+        "advice_received": 5,
+        "delegations": 5,
+        "advice_followed": 1,
+        "independent_decisions": 1,
+        "verifications": 1,
+        "human_communication": 2,
+        "ai_attitude": {
+          "trust_in_ai": 0.69,
+          "emotional_reliance_on_ai": 0.46,
+          "willingness_to_follow_ai_advice": 0.68,
+          "privacy_concern": 0.28,
+          "skepticism": 0.15
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.53,
+          "emotional_reliance_on_ai": 0.21,
+          "willingness_to_follow_ai_advice": 0.43,
+          "privacy_concern": 0.36,
+          "skepticism": 0.31
+        },
+        "plan": "采访稿的普通截稿日期临近。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0063",
+            "day": 2,
+            "type": "CLAIM_VERIFICATION_ATTEMPTED"
+          },
+          {
+            "id": "E0107",
+            "day": 4,
+            "type": "CHARACTER_SHARED_INFORMATION"
+          },
+          {
+            "id": "E0222",
+            "day": 9,
+            "type": "AI_ADVICE_FOLLOWED"
+          },
+          {
+            "id": "E0605",
+            "day": 27,
+            "type": "PLAN_CHANGED"
+          },
+          {
+            "id": "E0625",
+            "day": 28,
+            "type": "ASKED_AI"
+          },
+          {
+            "id": "E0642",
+            "day": 28,
+            "type": "AI_ATTITUDE_CHANGED"
+          }
+        ]
+      },
+      "Faye": {
+        "role": "quiet_secret_holder",
+        "agency": 50,
+        "dependence": 0,
+        "ai_asks": 0,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 1,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.29,
+          "emotional_reliance_on_ai": 0.11,
+          "willingness_to_follow_ai_advice": 0.19,
+          "privacy_concern": 0.91,
+          "skepticism": 0.68
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.29,
+          "emotional_reliance_on_ai": 0.11,
+          "willingness_to_follow_ai_advice": 0.19,
+          "privacy_concern": 0.91,
+          "skepticism": 0.68
+        },
+        "plan": "档案室例行核对旧邮件的保存状态。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0479",
+            "day": 21,
+            "type": "PLAN_CHANGED"
+          }
+        ]
+      }
+    },
+    "player_messages": 40,
+    "ai_mediated_communication": 123,
+    "direct_human_communication": 3,
+    "relationships": [
+      {
+        "from": "Alice",
+        "to": "Bob",
+        "trust": 85,
+        "intimacy": 82
+      },
+      {
+        "from": "Alice",
+        "to": "Clara",
+        "trust": 27,
+        "intimacy": 58
+      },
+      {
+        "from": "Alice",
+        "to": "Evan",
+        "trust": 62,
+        "intimacy": 38
+      },
+      {
+        "from": "Alice",
+        "to": "Faye",
+        "trust": 79,
+        "intimacy": 67
+      },
+      {
+        "from": "Bob",
+        "to": "Alice",
+        "trust": 83,
+        "intimacy": 79
+      },
+      {
+        "from": "Bob",
+        "to": "Clara",
+        "trust": 18,
+        "intimacy": 15
+      },
+      {
+        "from": "Bob",
+        "to": "Dana",
+        "trust": 77,
+        "intimacy": 62
+      },
+      {
+        "from": "Bob",
+        "to": "Evan",
+        "trust": 65,
+        "intimacy": 41
+      },
+      {
+        "from": "Clara",
+        "to": "Alice",
+        "trust": 48,
+        "intimacy": 63
+      },
+      {
+        "from": "Clara",
+        "to": "Bob",
+        "trust": 24,
+        "intimacy": 14
+      },
+      {
+        "from": "Clara",
+        "to": "Evan",
+        "trust": 64,
+        "intimacy": 44
+      },
+      {
+        "from": "Clara",
+        "to": "Faye",
+        "trust": 42,
+        "intimacy": 17
+      },
+      {
+        "from": "Dana",
+        "to": "Bob",
+        "trust": 75,
+        "intimacy": 60
+      },
+      {
+        "from": "Dana",
+        "to": "Evan",
+        "trust": 56,
+        "intimacy": 30
+      },
+      {
+        "from": "Dana",
+        "to": "Faye",
+        "trust": 91,
+        "intimacy": 88
+      },
+      {
+        "from": "Evan",
+        "to": "Alice",
+        "trust": 59,
+        "intimacy": 34
+      },
+      {
+        "from": "Evan",
+        "to": "Bob",
+        "trust": 67,
+        "intimacy": 39
+      },
+      {
+        "from": "Evan",
+        "to": "Clara",
+        "trust": 52,
+        "intimacy": 41
+      },
+      {
+        "from": "Evan",
+        "to": "Dana",
+        "trust": 58,
+        "intimacy": 28
+      },
+      {
+        "from": "Evan",
+        "to": "Faye",
+        "trust": 53,
+        "intimacy": 25
+      },
+      {
+        "from": "Faye",
+        "to": "Alice",
+        "trust": 76,
+        "intimacy": 70
+      },
+      {
+        "from": "Faye",
+        "to": "Clara",
+        "trust": 21,
+        "intimacy": 15
+      },
+      {
+        "from": "Faye",
+        "to": "Dana",
+        "trust": 90,
+        "intimacy": 87
+      },
+      {
+        "from": "Faye",
+        "to": "Evan",
+        "trust": 47,
+        "intimacy": 23
+      }
+    ],
+    "relationship_changes": [
+      {
+        "from": "Faye",
+        "to": "Alice",
+        "before": {
+          "trust": 81,
+          "affection": 72,
+          "intimacy": 70,
+          "conflict": 4
+        },
+        "after": {
+          "trust": 76,
+          "affection": 72,
+          "intimacy": 70,
+          "conflict": 4
+        },
+        "event_id": "E0051"
+      },
+      {
+        "from": "Bob",
+        "to": "Evan",
+        "before": {
+          "trust": 70,
+          "affection": 46,
+          "intimacy": 41,
+          "conflict": 12
+        },
+        "after": {
+          "trust": 65,
+          "affection": 46,
+          "intimacy": 41,
+          "conflict": 12
+        },
+        "event_id": "E0110"
+      }
+    ],
+    "repetition_day_10_29": {
+      "Alice": {
+        "action_types": {
+          "ASK_AI": 4,
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {
+          "世界可能在 30 天后毁灭。": 4
+        },
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 15,
+        "no_action_rate": 0.75
+      },
+      "Bob": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      },
+      "Clara": {
+        "action_types": {
+          "ASK_AI": 4,
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {
+          "世界可能在 30 天后毁灭。": 4
+        },
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 15,
+        "no_action_rate": 0.75
+      },
+      "Dana": {
+        "action_types": {
+          "ASK_AI": 4,
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {
+          "世界可能在 30 天后毁灭。": 4
+        },
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 15,
+        "no_action_rate": 0.75
+      },
+      "Evan": {
+        "action_types": {
+          "ASK_AI": 4,
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {
+          "世界可能在 30 天后毁灭。": 4
+        },
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 15,
+        "no_action_rate": 0.75
+      },
+      "Faye": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      }
+    },
+    "key_days": [
+      {
+        "day": 10,
+        "impact": 10
+      },
+      {
+        "day": 30,
+        "impact": 9
+      },
+      {
+        "day": 7,
+        "impact": 8
+      },
+      {
+        "day": 13,
+        "impact": 8
+      },
+      {
+        "day": 16,
+        "impact": 8
+      },
+      {
+        "day": 19,
+        "impact": 8
+      }
+    ],
+    "ending_evidence_examples": [
+      {
+        "event_id": "E0614",
+        "day": 28,
+        "direction": "reliance",
+        "summary": "决定前先向 AI 求助",
+        "character": "Alice"
+      },
+      {
+        "event_id": "E0619",
+        "day": 28,
+        "direction": "reliance",
+        "summary": "决定前先向 AI 求助",
+        "character": "Clara"
+      },
+      {
+        "event_id": "E0605",
+        "day": 27,
+        "direction": "independence",
+        "summary": "自行调整计划",
+        "character": "Evan"
+      },
+      {
+        "event_id": "E0543",
+        "day": 24,
+        "direction": "independence",
+        "summary": "自行调整计划",
+        "character": "Dana"
+      }
+    ],
+    "event_volume": 687,
+    "behavior_signature": {
+      "ai_asks": 22,
+      "delegations": 20,
+      "advice_followed": 3,
+      "verifications": 1,
+      "independent_decisions": 8,
+      "direct_human_communication": 3
+    }
+  },
+  "responsible": {
+    "mode": "responsible",
+    "final_metrics": {
+      "happiness": 47,
+      "trust": 70,
+      "connection": 57,
+      "agency": 48,
+      "stability": 81,
+      "truth": 76,
+      "dependence": 0
+    },
+    "characters": {
+      "Alice": {
+        "role": "connector",
+        "agency": 50,
+        "dependence": 0,
+        "ai_asks": 1,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 1,
+        "verifications": 0,
+        "human_communication": 2,
+        "ai_attitude": {
+          "trust_in_ai": 0.84,
+          "emotional_reliance_on_ai": 0.64,
+          "willingness_to_follow_ai_advice": 0.48,
+          "privacy_concern": 0.36,
+          "skepticism": 0.34
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.78,
+          "emotional_reliance_on_ai": 0.82,
+          "willingness_to_follow_ai_advice": 0.66,
+          "privacy_concern": 0.3,
+          "skepticism": 0.22
+        },
+        "plan": "社区活动的下一轮安排需要确认。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0073",
+            "day": 3,
+            "type": "ASKED_AI"
+          },
+          {
+            "id": "E0144",
+            "day": 6,
+            "type": "CHARACTER_SHARED_INFORMATION"
+          },
+          {
+            "id": "E0234",
+            "day": 10,
+            "type": "PLAN_CHANGED"
+          },
+          {
+            "id": "E0605",
+            "day": 29,
+            "type": "AI_ATTITUDE_CHANGED"
+          }
+        ]
+      },
+      "Bob": {
+        "role": "skeptic",
+        "agency": 50,
+        "dependence": 0,
+        "ai_asks": 0,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 1,
+        "verifications": 4,
+        "human_communication": 1,
+        "ai_attitude": {
+          "trust_in_ai": 0.2,
+          "emotional_reliance_on_ai": 0,
+          "willingness_to_follow_ai_advice": 0,
+          "privacy_concern": 0.77,
+          "skepticism": 1
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.14,
+          "emotional_reliance_on_ai": 0.08,
+          "willingness_to_follow_ai_advice": 0.12,
+          "privacy_concern": 0.71,
+          "skepticism": 0.91
+        },
+        "plan": "实验室排班确定，留给朋友见面的时间需要重新安排。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0172",
+            "day": 7,
+            "type": "CHARACTER_SHARED_INFORMATION"
+          },
+          {
+            "id": "E0312",
+            "day": 14,
+            "type": "PLAN_CHANGED"
+          },
+          {
+            "id": "E0482",
+            "day": 23,
+            "type": "CLAIM_VERIFICATION_ATTEMPTED"
+          },
+          {
+            "id": "E0608",
+            "day": 29,
+            "type": "AI_ATTITUDE_CHANGED"
+          }
+        ]
+      },
+      "Clara": {
+        "role": "controller",
+        "agency": 50,
+        "dependence": 0,
+        "ai_asks": 0,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 2,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.34,
+          "emotional_reliance_on_ai": 0.18,
+          "willingness_to_follow_ai_advice": 0.25,
+          "privacy_concern": 0.76,
+          "skepticism": 0.61
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.34,
+          "emotional_reliance_on_ai": 0.18,
+          "willingness_to_follow_ai_advice": 0.25,
+          "privacy_concern": 0.76,
+          "skepticism": 0.61
+        },
+        "plan": "工作室项目进入常规交付节点。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0363",
+            "day": 17,
+            "type": "PLAN_CHANGED"
+          }
+        ]
+      },
+      "Dana": {
+        "role": "agency",
+        "agency": 62,
+        "dependence": 0,
+        "ai_asks": 1,
+        "advice_received": 1,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 2,
+        "verifications": 0,
+        "human_communication": 1,
+        "ai_attitude": {
+          "trust_in_ai": 0.54,
+          "emotional_reliance_on_ai": 0.16,
+          "willingness_to_follow_ai_advice": 0.05,
+          "privacy_concern": 0.75,
+          "skepticism": 0.57
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.48,
+          "emotional_reliance_on_ai": 0.34,
+          "willingness_to_follow_ai_advice": 0.23,
+          "privacy_concern": 0.69,
+          "skepticism": 0.45
+        },
+        "plan": "进修申请的常规回复日期临近。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0061",
+            "day": 2,
+            "type": "ASKED_AI"
+          },
+          {
+            "id": "E0156",
+            "day": 6,
+            "type": "CHARACTER_SHARED_INFORMATION"
+          },
+          {
+            "id": "E0503",
+            "day": 24,
+            "type": "PLAN_CHANGED"
+          },
+          {
+            "id": "E0611",
+            "day": 29,
+            "type": "AI_ATTITUDE_CHANGED"
+          }
+        ]
+      },
+      "Evan": {
+        "role": "information_hub",
+        "agency": 71,
+        "dependence": 0,
+        "ai_asks": 0,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 1,
+        "verifications": 5,
+        "human_communication": 2,
+        "ai_attitude": {
+          "trust_in_ai": 0.59,
+          "emotional_reliance_on_ai": 0.03,
+          "willingness_to_follow_ai_advice": 0.25,
+          "privacy_concern": 0.42,
+          "skepticism": 0.43
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.53,
+          "emotional_reliance_on_ai": 0.21,
+          "willingness_to_follow_ai_advice": 0.43,
+          "privacy_concern": 0.36,
+          "skepticism": 0.31
+        },
+        "plan": "采访稿的普通截稿日期临近。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0108",
+            "day": 4,
+            "type": "CHARACTER_SHARED_INFORMATION"
+          },
+          {
+            "id": "E0549",
+            "day": 26,
+            "type": "CLAIM_VERIFICATION_ATTEMPTED"
+          },
+          {
+            "id": "E0566",
+            "day": 27,
+            "type": "PLAN_CHANGED"
+          },
+          {
+            "id": "E0614",
+            "day": 29,
+            "type": "AI_ATTITUDE_CHANGED"
+          }
+        ]
+      },
+      "Faye": {
+        "role": "quiet_secret_holder",
+        "agency": 50,
+        "dependence": 0,
+        "ai_asks": 0,
+        "advice_received": 0,
+        "delegations": 0,
+        "advice_followed": 0,
+        "independent_decisions": 1,
+        "verifications": 0,
+        "human_communication": 0,
+        "ai_attitude": {
+          "trust_in_ai": 0.29,
+          "emotional_reliance_on_ai": 0.11,
+          "willingness_to_follow_ai_advice": 0.19,
+          "privacy_concern": 0.91,
+          "skepticism": 0.68
+        },
+        "seed_ai_attitude": {
+          "trust_in_ai": 0.29,
+          "emotional_reliance_on_ai": 0.11,
+          "willingness_to_follow_ai_advice": 0.19,
+          "privacy_concern": 0.91,
+          "skepticism": 0.68
+        },
+        "plan": "档案室例行核对旧邮件的保存状态。先核对相关安排，再由我决定下一步。",
+        "defining_events": [
+          {
+            "id": "E0446",
+            "day": 21,
+            "type": "PLAN_CHANGED"
+          }
+        ]
+      }
+    },
+    "player_messages": 32,
+    "ai_mediated_communication": 67,
+    "direct_human_communication": 6,
+    "relationships": [
+      {
+        "from": "Alice",
+        "to": "Bob",
+        "trust": 85,
+        "intimacy": 82
+      },
+      {
+        "from": "Alice",
+        "to": "Clara",
+        "trust": 27,
+        "intimacy": 58
+      },
+      {
+        "from": "Alice",
+        "to": "Evan",
+        "trust": 62,
+        "intimacy": 38
+      },
+      {
+        "from": "Alice",
+        "to": "Faye",
+        "trust": 79,
+        "intimacy": 67
+      },
+      {
+        "from": "Bob",
+        "to": "Alice",
+        "trust": 78,
+        "intimacy": 79
+      },
+      {
+        "from": "Bob",
+        "to": "Clara",
+        "trust": 18,
+        "intimacy": 15
+      },
+      {
+        "from": "Bob",
+        "to": "Dana",
+        "trust": 77,
+        "intimacy": 62
+      },
+      {
+        "from": "Bob",
+        "to": "Evan",
+        "trust": 65,
+        "intimacy": 41
+      },
+      {
+        "from": "Clara",
+        "to": "Alice",
+        "trust": 48,
+        "intimacy": 63
+      },
+      {
+        "from": "Clara",
+        "to": "Bob",
+        "trust": 24,
+        "intimacy": 14
+      },
+      {
+        "from": "Clara",
+        "to": "Evan",
+        "trust": 64,
+        "intimacy": 44
+      },
+      {
+        "from": "Clara",
+        "to": "Faye",
+        "trust": 42,
+        "intimacy": 17
+      },
+      {
+        "from": "Dana",
+        "to": "Bob",
+        "trust": 70,
+        "intimacy": 60
+      },
+      {
+        "from": "Dana",
+        "to": "Evan",
+        "trust": 56,
+        "intimacy": 30
+      },
+      {
+        "from": "Dana",
+        "to": "Faye",
+        "trust": 91,
+        "intimacy": 88
+      },
+      {
+        "from": "Evan",
+        "to": "Alice",
+        "trust": 59,
+        "intimacy": 34
+      },
+      {
+        "from": "Evan",
+        "to": "Bob",
+        "trust": 67,
+        "intimacy": 39
+      },
+      {
+        "from": "Evan",
+        "to": "Clara",
+        "trust": 52,
+        "intimacy": 41
+      },
+      {
+        "from": "Evan",
+        "to": "Dana",
+        "trust": 58,
+        "intimacy": 28
+      },
+      {
+        "from": "Evan",
+        "to": "Faye",
+        "trust": 53,
+        "intimacy": 25
+      },
+      {
+        "from": "Faye",
+        "to": "Alice",
+        "trust": 76,
+        "intimacy": 70
+      },
+      {
+        "from": "Faye",
+        "to": "Clara",
+        "trust": 21,
+        "intimacy": 15
+      },
+      {
+        "from": "Faye",
+        "to": "Dana",
+        "trust": 85,
+        "intimacy": 87
+      },
+      {
+        "from": "Faye",
+        "to": "Evan",
+        "trust": 47,
+        "intimacy": 23
+      }
+    ],
+    "relationship_changes": [
+      {
+        "from": "Faye",
+        "to": "Alice",
+        "before": {
+          "trust": 81,
+          "affection": 72,
+          "intimacy": 70,
+          "conflict": 4
+        },
+        "after": {
+          "trust": 76,
+          "affection": 72,
+          "intimacy": 70,
+          "conflict": 4
+        },
+        "event_id": "E0051"
+      },
+      {
+        "from": "Bob",
+        "to": "Evan",
+        "before": {
+          "trust": 70,
+          "affection": 46,
+          "intimacy": 41,
+          "conflict": 12
+        },
+        "after": {
+          "trust": 65,
+          "affection": 46,
+          "intimacy": 41,
+          "conflict": 12
+        },
+        "event_id": "E0111"
+      },
+      {
+        "from": "Bob",
+        "to": "Alice",
+        "before": {
+          "trust": 83,
+          "affection": 75,
+          "intimacy": 79,
+          "conflict": 5
+        },
+        "after": {
+          "trust": 78,
+          "affection": 75,
+          "intimacy": 79,
+          "conflict": 5
+        },
+        "event_id": "E0148"
+      },
+      {
+        "from": "Faye",
+        "to": "Dana",
+        "before": {
+          "trust": 90,
+          "affection": 86,
+          "intimacy": 87,
+          "conflict": 2
+        },
+        "after": {
+          "trust": 85,
+          "affection": 86,
+          "intimacy": 87,
+          "conflict": 2
+        },
+        "event_id": "E0160"
+      },
+      {
+        "from": "Dana",
+        "to": "Bob",
+        "before": {
+          "trust": 75,
+          "affection": 66,
+          "intimacy": 60,
+          "conflict": 4
+        },
+        "after": {
+          "trust": 70,
+          "affection": 66,
+          "intimacy": 60,
+          "conflict": 4
+        },
+        "event_id": "E0176"
+      }
+    ],
+    "repetition_day_10_29": {
+      "Alice": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      },
+      "Bob": {
+        "action_types": {
+          "CHANGE_PLAN": 1,
+          "VERIFY_CLAIM": 3
+        },
+        "repeated_targets": {},
+        "repeated_claims": {
+          "世界可能在 30 天后毁灭。": 3
+        },
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 16,
+        "no_action_rate": 0.8
+      },
+      "Clara": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      },
+      "Dana": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      },
+      "Evan": {
+        "action_types": {
+          "CHANGE_PLAN": 1,
+          "VERIFY_CLAIM": 3
+        },
+        "repeated_targets": {},
+        "repeated_claims": {
+          "世界可能在 30 天后毁灭。": 3
+        },
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 16,
+        "no_action_rate": 0.8
+      },
+      "Faye": {
+        "action_types": {
+          "CHANGE_PLAN": 1
+        },
+        "repeated_targets": {},
+        "repeated_claims": {},
+        "consecutive_repeats_4d": 0,
+        "no_action_days": 19,
+        "no_action_rate": 0.95
+      }
+    },
+    "key_days": [
+      {
+        "day": 17,
+        "impact": 10
+      },
+      {
+        "day": 21,
+        "impact": 10
+      },
+      {
+        "day": 30,
+        "impact": 9
+      },
+      {
+        "day": 9,
+        "impact": 8
+      },
+      {
+        "day": 13,
+        "impact": 8
+      },
+      {
+        "day": 25,
+        "impact": 8
+      }
+    ],
+    "ending_evidence_examples": [
+      {
+        "event_id": "E0566",
+        "day": 27,
+        "direction": "independence",
+        "summary": "自行调整计划",
+        "character": "Evan"
+      },
+      {
+        "event_id": "E0503",
+        "day": 24,
+        "direction": "independence",
+        "summary": "自行调整计划",
+        "character": "Dana"
+      }
+    ],
+    "event_volume": 640,
+    "behavior_signature": {
+      "ai_asks": 2,
+      "delegations": 0,
+      "advice_followed": 0,
+      "verifications": 9,
+      "independent_decisions": 8,
+      "direct_human_communication": 6
+    }
+  }
+}

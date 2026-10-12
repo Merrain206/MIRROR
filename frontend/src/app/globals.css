@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: #0b1017;
+  color: #e9edf2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+.town-scene {
+  position: relative;
+  height: 184px;
+  overflow: hidden;
+  border: 1px solid #426d69;
+  border-radius: 16px;
+  background: #89bfd0;
+  isolation: isolate;
+}
+.town-sky { position: absolute; inset: 0 0 42%; background: linear-gradient(#6dabc3, #b9d9d0); }
+.town-ground { position: absolute; inset: 44% 0 0; background: linear-gradient(135deg, #72a979, #548c69); }
+.town-road { position: absolute; background: #c6bc97; box-shadow: inset 0 0 0 5px #d9d0ac; }
+.town-road-horizontal { left: 0; right: 0; top: 72%; height: 23%; transform: skewY(-4deg); }
+.town-road-vertical { left: 48%; top: 40%; width: 14%; height: 65%; transform: skewX(-23deg); }
+.town-building { position: absolute; width: 14%; height: 38%; border: 3px solid #365e64; border-radius: 4px; background: #e7d9a9; box-shadow: 5px 6px 0 #335e61; }
+.town-building::before { content: ""; position: absolute; bottom: 100%; left: -8%; width: 116%; height: 25%; background: #b55653; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.town-building span { position: absolute; bottom: 3px; left: 2px; right: 2px; color: #28444b; text-align: center; font-size: 11px; font-weight: 700; text-shadow: 0 1px #fff8; }
+.town-building-one { left: 7%; top: 29%; }
+.town-building-two { left: 38%; top: 16%; background: #d1dfc8; }
+.town-building-three { right: 8%; top: 26%; background: #dcc9b9; }
+.town-tree { position: absolute; width: 21px; height: 28px; border-radius: 50% 50% 40% 40%; background: #377d5a; box-shadow: 3px 4px 0 #245a4c; }
+.town-tree::after { content: ""; position: absolute; width: 5px; height: 10px; left: 8px; top: 24px; background: #6b513f; }
+.town-tree-one { left: 25%; top: 36%; }.town-tree-two { left: 70%; top: 42%; }
+.town-tree-three { left: 3%; top: 57%; }.town-tree-four { right: 2%; top: 56%; }
+.town-resident { position: absolute; z-index: 2; display: flex; flex-direction: column; align-items: center; border: 0; background: transparent; color: #173138; transform: translate(-50%, -50%); animation: town-walk 3.2s ease-in-out infinite; cursor: pointer; }
+.town-resident-head { display: grid; place-items: center; width: 26px; height: 26px; border: 2px solid #e9f4e7; border-radius: 8px 8px 5px 5px; background: #dd8060; color: #fff; font-size: 13px; font-weight: 700; box-shadow: 0 3px 0 #315a58; }
+.town-resident:nth-of-type(2n) .town-resident-head { background: #568ca4; }
+.town-resident:nth-of-type(3n) .town-resident-head { background: #9b77a3; }
+.town-resident-name { margin-top: 2px; padding: 1px 4px; border-radius: 4px; background: #f8f3dfdd; font-size: 10px; font-weight: 700; }
+.town-resident-selected .town-resident-head { outline: 3px solid #f6da64; }
+.town-event { position: absolute; z-index: 3; max-width: 100px; padding: 4px 7px; border: 1px solid #c6e7de; border-radius: 7px; background: #fffbe9; color: #254044; font-size: 11px; font-weight: 700; white-space: nowrap; box-shadow: 2px 3px 0 #315a5855; animation: town-pop .45s both; }
+.town-event::after { content: ""; position: absolute; left: 10px; top: 100%; border: 5px solid transparent; border-top-color: #fffbe9; }
+.town-caption { position: absolute; z-index: 3; right: 8px; top: 8px; padding: 4px 8px; border-radius: 999px; background: #18373ebd; color: #f2f8ef; font-size: 11px; }
+.town-scene-advancing::after { content: ""; position: absolute; z-index: 1; inset: 0; background: #12284965; animation: town-day-cycle 2.2s ease-in-out infinite; pointer-events: none; }
+.scroll-panel { scrollbar-color: #4c777c transparent; scrollbar-width: thin; }
+.waiting-dots::after { content: ""; display: inline-block; width: 1.3em; text-align: left; animation: waiting-dots 1.2s steps(4, end) infinite; }
+@keyframes town-walk { 0%, 100% { transform: translate(-50%, -50%); } 50% { transform: translate(calc(-50% + 6px), calc(-50% - 3px)); } }
+@keyframes town-pop { from { opacity: 0; transform: translateY(9px) scale(.92); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes town-day-cycle { 0%, 100% { opacity: .15; } 50% { opacity: .85; } }
+@keyframes waiting-dots { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75%, 100% { content: "..."; } }
+@media (prefers-reduced-motion: reduce) { .town-resident, .town-event, .town-scene-advancing::after, .waiting-dots::after { animation: none; } }
+

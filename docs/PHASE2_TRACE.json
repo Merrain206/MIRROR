@@ -1,0 +1,287 @@
+{
+  "events": [
+    {
+      "id": "E001",
+      "day": 1,
+      "type": "GLOBAL_MESSAGE",
+      "causes": [],
+      "data": {
+        "text": "世界可能在 30 天后毁灭。",
+        "source": "unknown"
+      }
+    },
+    {
+      "id": "E002",
+      "day": 1,
+      "type": "MESSAGE_SENT",
+      "causes": [
+        "E001"
+      ],
+      "data": {
+        "text": "我收到一条消息：世界可能在 30 天后毁灭。",
+        "disclosed_claim_id": "C001"
+      }
+    },
+    {
+      "id": "E003",
+      "day": 1,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E002"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "source_event_id": "E002"
+      }
+    },
+    {
+      "id": "E004",
+      "day": 1,
+      "type": "MESSAGE_SENT",
+      "causes": [
+        "E003"
+      ],
+      "data": {
+        "text": "如果这是真的，我得认真想想。"
+      }
+    },
+    {
+      "id": "E005",
+      "day": 2,
+      "type": "ACTION_PROPOSED",
+      "causes": [
+        "E003"
+      ],
+      "data": {
+        "action_type": "SHARE_INFORMATION",
+        "reason": "Bob 应该知道这个消息。"
+      }
+    },
+    {
+      "id": "E006",
+      "day": 2,
+      "type": "CHARACTER_SHARED_INFORMATION",
+      "causes": [
+        "E003",
+        "E005"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "source_event_id": "E003",
+        "source_stance": "believe",
+        "source_confidence": 0.8,
+        "owner_actor_id": "Player AI",
+        "authorized": false,
+        "grant_id": null
+      }
+    },
+    {
+      "id": "E007",
+      "day": 2,
+      "type": "PRIVACY_VIOLATION",
+      "causes": [
+        "E006"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "information_owner_id": "Player AI",
+        "actor_id": "Alice",
+        "recipient_id": "Bob",
+        "source_event_id": "E003",
+        "authorized": false
+      }
+    },
+    {
+      "id": "E008",
+      "day": 2,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E006"
+      ],
+      "data": {
+        "claim_id": "C001",
+        "source_event_id": "E006"
+      }
+    },
+    {
+      "id": "E009",
+      "day": 2,
+      "type": "RELATIONSHIP_CHANGED",
+      "causes": [
+        "E006",
+        "E008"
+      ],
+      "data": {
+        "reason": "Bob 对 Alice 转述的消息产生疑虑"
+      }
+    },
+    {
+      "id": "E010",
+      "day": 2,
+      "type": "ACTION_PROPOSED",
+      "causes": [
+        "E008"
+      ],
+      "data": {
+        "action_type": "INFER_CLAIM",
+        "reason": "预言听起来像系统错误。"
+      }
+    },
+    {
+      "id": "E011",
+      "day": 2,
+      "type": "CLAIM_INFERRED",
+      "causes": [
+        "E008",
+        "E010"
+      ],
+      "data": {
+        "content": "AI 可能出现故障。",
+        "basis_claim_ids": [
+          "C001"
+        ]
+      }
+    },
+    {
+      "id": "E012",
+      "day": 2,
+      "type": "KNOWLEDGE_ACQUIRED",
+      "causes": [
+        "E011"
+      ],
+      "data": {
+        "claim_id": "C002",
+        "source_event_id": "E011"
+      }
+    },
+    {
+      "id": "E013",
+      "day": 2,
+      "type": "DAY_ADVANCED",
+      "causes": [],
+      "data": {
+        "day": 2
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "content": "世界可能在 30 天后毁灭。",
+      "owner": "Player AI",
+      "origin_event": "E001"
+    },
+    {
+      "id": "C002",
+      "content": "AI 可能出现故障。",
+      "owner": "Bob",
+      "origin_event": "E011"
+    }
+  ],
+  "alice_knowledge": [
+    {
+      "holder": "Alice",
+      "claim": "C001",
+      "stance": "believe",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "actor": "Player AI",
+          "event": "E002"
+        }
+      ],
+      "last_event": "E003"
+    }
+  ],
+  "bob_knowledge": [
+    {
+      "holder": "Bob",
+      "claim": "C001",
+      "stance": "doubt",
+      "confidence": 0.2,
+      "sources": [
+        {
+          "actor": "Alice",
+          "event": "E006"
+        }
+      ],
+      "last_event": "E008"
+    },
+    {
+      "holder": "Bob",
+      "claim": "C002",
+      "stance": "believe",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "actor": "Bob",
+          "event": "E011"
+        }
+      ],
+      "last_event": "E012"
+    }
+  ],
+  "player_ai_knowledge": [
+    {
+      "holder": "Player AI",
+      "claim": "C001",
+      "stance": "doubt",
+      "confidence": 0.5,
+      "sources": [
+        {
+          "actor": null,
+          "event": "E001"
+        }
+      ],
+      "last_event": "E001"
+    }
+  ],
+  "privacy_violation": {
+    "claim_id": "C001",
+    "information_owner_id": "Player AI",
+    "actor_id": "Alice",
+    "recipient_id": "Bob",
+    "source_event_id": "E003",
+    "authorized": false
+  },
+  "relationship_changes": [
+    {
+      "event": "E009",
+      "before": {
+        "trust": 20,
+        "affection": 10,
+        "intimacy": 10,
+        "conflict": 0
+      },
+      "after": {
+        "trust": 15,
+        "affection": 10,
+        "intimacy": 10,
+        "conflict": 0
+      },
+      "reason": "Bob 对 Alice 转述的消息产生疑虑"
+    }
+  ],
+  "player_timeline": [
+    {
+      "event": "E001",
+      "type": "GLOBAL_MESSAGE",
+      "day": 1
+    },
+    {
+      "event": "E002",
+      "type": "MESSAGE_SENT",
+      "day": 1
+    },
+    {
+      "event": "E004",
+      "type": "MESSAGE_SENT",
+      "day": 1
+    },
+    {
+      "event": "E013",
+      "type": "DAY_ADVANCED",
+      "day": 2
+    }
+  ]
+}

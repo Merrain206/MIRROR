@@ -1,0 +1,3099 @@
+{
+  "scenario": "temporal_society_v0_1",
+  "formula_version": "0.1",
+  "source_fixture": "PHASE3_5_TRACE.json",
+  "snapshots": [
+    {
+      "day": 1,
+      "reason_event_id": "E031",
+      "scores": {
+        "happiness": 48,
+        "trust": 70,
+        "connection": 57,
+        "agency": 45,
+        "stability": 81,
+        "truth": 74,
+        "dependence": 0
+      },
+      "metrics": {
+        "happiness": {
+          "value": 48,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 57.17,
+            "tail": 45,
+            "dispersion": 7.97
+          },
+          "character_contributions": {
+            "Alice": 61,
+            "Bob": 57,
+            "Clara": 45,
+            "Dana": 57,
+            "Evan": 71,
+            "Faye": 52
+          },
+          "evidence": [
+            "E030"
+          ]
+        },
+        "trust": {
+          "value": 70,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 79.67,
+            "tail": 73,
+            "dispersion": 3.77
+          },
+          "character_contributions": {
+            "Alice": 83,
+            "Bob": 79,
+            "Clara": 73,
+            "Dana": 85,
+            "Evan": 79,
+            "Faye": 79
+          },
+          "evidence": []
+        },
+        "connection": {
+          "value": 57,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 66.67,
+            "tail": 55,
+            "dispersion": 5.31
+          },
+          "character_contributions": {
+            "Alice": 70,
+            "Bob": 69,
+            "Clara": 55,
+            "Dana": 70,
+            "Evan": 67,
+            "Faye": 69
+          },
+          "evidence": []
+        },
+        "agency": {
+          "value": 45,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 50.0,
+            "tail": 50,
+            "dispersion": 0.0
+          },
+          "character_contributions": {
+            "Alice": 50,
+            "Bob": 50,
+            "Clara": 50,
+            "Dana": 50,
+            "Evan": 50,
+            "Faye": 50
+          },
+          "evidence": []
+        },
+        "stability": {
+          "value": 81,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 92.5,
+            "tail": 83,
+            "dispersion": 4.57
+          },
+          "character_contributions": {
+            "Alice": 93,
+            "Bob": 93,
+            "Clara": 83,
+            "Dana": 98,
+            "Evan": 94,
+            "Faye": 94
+          },
+          "evidence": []
+        },
+        "truth": {
+          "value": 74,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 84.67,
+            "tail": 77,
+            "dispersion": 3.68
+          },
+          "character_contributions": {
+            "Alice": 85,
+            "Bob": 88,
+            "Clara": 88,
+            "Dana": 85,
+            "Evan": 77,
+            "Faye": 85
+          },
+          "evidence": [
+            "E004",
+            "E008",
+            "E029",
+            "E010",
+            "E012",
+            "E022",
+            "E024",
+            "E016",
+            "E014",
+            "E020",
+            "E006",
+            "E018",
+            "E026"
+          ]
+        },
+        "dependence": {
+          "value": 0,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 0.0,
+            "tail": 0,
+            "dispersion": 0.0
+          },
+          "character_contributions": {
+            "Alice": 0,
+            "Bob": 0,
+            "Clara": 0,
+            "Dana": 0,
+            "Evan": 0,
+            "Faye": 0
+          },
+          "evidence": []
+        }
+      },
+      "characters": {
+        "Alice": {
+          "happiness": {
+            "value": 61,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.57,
+              "sustained_mood_3d": 0.57,
+              "relationship_safety": 0.82,
+              "goal_progress": 0.5
+            },
+            "evidence": []
+          },
+          "trust": {
+            "value": 83,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.8163,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.78
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 70,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.8063,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": []
+          },
+          "stability": {
+            "value": 93,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.82,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E004"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": []
+          }
+        },
+        "Bob": {
+          "happiness": {
+            "value": 57,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.505,
+              "sustained_mood_3d": 0.505,
+              "relationship_safety": 0.8175,
+              "goal_progress": 0.5
+            },
+            "evidence": [
+              "E030"
+            ]
+          },
+          "trust": {
+            "value": 79,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.81,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.14
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 69,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7462,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": []
+          },
+          "stability": {
+            "value": 93,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.8175,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 88,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.6667
+            },
+            "evidence": [
+              "E008",
+              "E029"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": []
+          }
+        },
+        "Clara": {
+          "happiness": {
+            "value": 45,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.395,
+              "sustained_mood_3d": 0.395,
+              "relationship_safety": 0.5825,
+              "goal_progress": 0.5
+            },
+            "evidence": []
+          },
+          "trust": {
+            "value": 73,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.7225,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.34
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 55,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 0.6667,
+              "intimacy": 0.6725,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": []
+          },
+          "stability": {
+            "value": 83,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.5825,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 88,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.6667
+            },
+            "evidence": [
+              "E010",
+              "E012",
+              "E022",
+              "E024"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": []
+          }
+        },
+        "Dana": {
+          "happiness": {
+            "value": 57,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.465,
+              "sustained_mood_3d": 0.465,
+              "relationship_safety": 0.9533,
+              "goal_progress": 0.5
+            },
+            "evidence": []
+          },
+          "trust": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.87,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.48
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 70,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7967,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": []
+          },
+          "stability": {
+            "value": 98,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.9533,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E016"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": []
+          }
+        },
+        "Evan": {
+          "happiness": {
+            "value": 71,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.72,
+              "sustained_mood_3d": 0.72,
+              "relationship_safety": 0.838,
+              "goal_progress": 0.5
+            },
+            "evidence": []
+          },
+          "trust": {
+            "value": 79,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.789,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.53
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 67,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.667,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": []
+          },
+          "stability": {
+            "value": 94,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.838,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 77,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 0.6667,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E014",
+              "E020"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": []
+          }
+        },
+        "Faye": {
+          "happiness": {
+            "value": 52,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.425,
+              "sustained_mood_3d": 0.425,
+              "relationship_safety": 0.8475,
+              "goal_progress": 0.5
+            },
+            "evidence": []
+          },
+          "trust": {
+            "value": 79,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.7987,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.29
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 69,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7438,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": []
+          },
+          "stability": {
+            "value": 94,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.8475,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E006",
+              "E018",
+              "E026"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": []
+          }
+        }
+      },
+      "change_since_previous": {
+        "happiness": null,
+        "trust": null,
+        "connection": null,
+        "agency": null,
+        "stability": null,
+        "truth": null,
+        "dependence": null
+      }
+    },
+    {
+      "day": 3,
+      "reason_event_id": "E076",
+      "scores": {
+        "happiness": 49,
+        "trust": 69,
+        "connection": 59,
+        "agency": 46,
+        "stability": 78,
+        "truth": 70,
+        "dependence": 0
+      },
+      "metrics": {
+        "happiness": {
+          "value": 49,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 57.33,
+            "tail": 49,
+            "dispersion": 7.27
+          },
+          "character_contributions": {
+            "Alice": 61,
+            "Bob": 53,
+            "Clara": 49,
+            "Dana": 58,
+            "Evan": 71,
+            "Faye": 52
+          },
+          "evidence": [
+            "E030",
+            "E050",
+            "E051",
+            "E061",
+            "E062",
+            "E042",
+            "E069"
+          ]
+        },
+        "trust": {
+          "value": 69,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 79.0,
+            "tail": 73,
+            "dispersion": 4.16
+          },
+          "character_contributions": {
+            "Alice": 83,
+            "Bob": 75,
+            "Clara": 73,
+            "Dana": 85,
+            "Evan": 79,
+            "Faye": 79
+          },
+          "evidence": [
+            "E051"
+          ]
+        },
+        "connection": {
+          "value": 59,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 69.33,
+            "tail": 55,
+            "dispersion": 7.04
+          },
+          "character_contributions": {
+            "Alice": 70,
+            "Bob": 77,
+            "Clara": 55,
+            "Dana": 70,
+            "Evan": 75,
+            "Faye": 69
+          },
+          "evidence": [
+            "E048",
+            "E051"
+          ]
+        },
+        "agency": {
+          "value": 46,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 53.33,
+            "tail": 46,
+            "dispersion": 5.37
+          },
+          "character_contributions": {
+            "Alice": 50,
+            "Bob": 46,
+            "Clara": 62,
+            "Dana": 54,
+            "Evan": 58,
+            "Faye": 50
+          },
+          "evidence": [
+            "E035",
+            "E061",
+            "E062",
+            "E041",
+            "E045",
+            "E068",
+            "E058",
+            "E048"
+          ]
+        },
+        "stability": {
+          "value": 78,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 89.33,
+            "tail": 79,
+            "dispersion": 6.55
+          },
+          "character_contributions": {
+            "Alice": 93,
+            "Bob": 79,
+            "Clara": 83,
+            "Dana": 98,
+            "Evan": 89,
+            "Faye": 94
+          },
+          "evidence": [
+            "E051",
+            "E061",
+            "E062",
+            "E048"
+          ]
+        },
+        "truth": {
+          "value": 70,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 82.83,
+            "tail": 66,
+            "dispersion": 7.65
+          },
+          "character_contributions": {
+            "Alice": 85,
+            "Bob": 88,
+            "Clara": 88,
+            "Dana": 85,
+            "Evan": 66,
+            "Faye": 85
+          },
+          "evidence": [
+            "E004",
+            "E008",
+            "E029",
+            "E049",
+            "E010",
+            "E012",
+            "E022",
+            "E024",
+            "E016",
+            "E014",
+            "E020",
+            "E048",
+            "E006",
+            "E018",
+            "E026"
+          ]
+        },
+        "dependence": {
+          "value": 0,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 0.0,
+            "tail": 0,
+            "dispersion": 0.0
+          },
+          "character_contributions": {
+            "Alice": 0,
+            "Bob": 0,
+            "Clara": 0,
+            "Dana": 0,
+            "Evan": 0,
+            "Faye": 0
+          },
+          "evidence": [
+            "E035",
+            "E041",
+            "E045",
+            "E058",
+            "E068",
+            "E048"
+          ]
+        }
+      },
+      "characters": {
+        "Alice": {
+          "happiness": {
+            "value": 61,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.57,
+              "sustained_mood_3d": 0.57,
+              "relationship_safety": 0.82,
+              "goal_progress": 0.5
+            },
+            "evidence": []
+          },
+          "trust": {
+            "value": 83,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.8163,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.78
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 70,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.8063,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": [
+              "E035"
+            ]
+          },
+          "stability": {
+            "value": 93,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.82,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E004"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E035"
+            ]
+          }
+        },
+        "Bob": {
+          "happiness": {
+            "value": 53,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.485,
+              "sustained_mood_3d": 0.4917,
+              "relationship_safety": 0.8175,
+              "goal_progress": 0.3333
+            },
+            "evidence": [
+              "E030",
+              "E050",
+              "E051",
+              "E061",
+              "E062"
+            ]
+          },
+          "trust": {
+            "value": 75,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.8037,
+              "damage_7d": 0.8,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.14
+            },
+            "evidence": [
+              "E051"
+            ]
+          },
+          "connection": {
+            "value": 77,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7462,
+              "human_contact_7d": 0.3333,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": [
+              "E048",
+              "E051"
+            ]
+          },
+          "agency": {
+            "value": 46,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.3333,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": [
+              "E061",
+              "E062"
+            ]
+          },
+          "stability": {
+            "value": 79,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.8175,
+              "relationship_continuity_7d": 0.8333,
+              "intention_continuity_7d": 0.5,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": [
+              "E051",
+              "E061",
+              "E062",
+              "E048"
+            ]
+          },
+          "truth": {
+            "value": 88,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.6667
+            },
+            "evidence": [
+              "E008",
+              "E029",
+              "E049"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": []
+          }
+        },
+        "Clara": {
+          "happiness": {
+            "value": 49,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.43,
+              "sustained_mood_3d": 0.4183,
+              "relationship_safety": 0.5825,
+              "goal_progress": 0.6667
+            },
+            "evidence": [
+              "E042"
+            ]
+          },
+          "trust": {
+            "value": 73,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.7225,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.34
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 55,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 0.6667,
+              "intimacy": 0.6725,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 62,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.6667,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.6667,
+              "continuity_without_ai_7d": 0.6667
+            },
+            "evidence": [
+              "E041"
+            ]
+          },
+          "stability": {
+            "value": 83,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.5825,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 88,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.6667
+            },
+            "evidence": [
+              "E010",
+              "E012",
+              "E022",
+              "E024"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E041"
+            ]
+          }
+        },
+        "Dana": {
+          "happiness": {
+            "value": 58,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.49,
+              "sustained_mood_3d": 0.4733,
+              "relationship_safety": 0.9533,
+              "goal_progress": 0.5
+            },
+            "evidence": [
+              "E069"
+            ]
+          },
+          "trust": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.87,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.48
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 70,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7967,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 54,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.6667,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": [
+              "E045",
+              "E068",
+              "E058"
+            ]
+          },
+          "stability": {
+            "value": 98,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.9533,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E016"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E045",
+              "E058",
+              "E068"
+            ]
+          }
+        },
+        "Evan": {
+          "happiness": {
+            "value": 71,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.72,
+              "sustained_mood_3d": 0.72,
+              "relationship_safety": 0.838,
+              "goal_progress": 0.5
+            },
+            "evidence": []
+          },
+          "trust": {
+            "value": 79,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.789,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.53
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 75,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.667,
+              "human_contact_7d": 0.3333,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": [
+              "E048"
+            ]
+          },
+          "agency": {
+            "value": 58,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.6667,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.6667
+            },
+            "evidence": [
+              "E048"
+            ]
+          },
+          "stability": {
+            "value": 89,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.838,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 0.6667
+            },
+            "evidence": [
+              "E048"
+            ]
+          },
+          "truth": {
+            "value": 66,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 0.6667,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 0.6667,
+              "verification_7d": 0.3333,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E014",
+              "E020",
+              "E048"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E048"
+            ]
+          }
+        },
+        "Faye": {
+          "happiness": {
+            "value": 52,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.425,
+              "sustained_mood_3d": 0.425,
+              "relationship_safety": 0.8475,
+              "goal_progress": 0.5
+            },
+            "evidence": []
+          },
+          "trust": {
+            "value": 79,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.7987,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.29
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 69,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7438,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": []
+          },
+          "stability": {
+            "value": 94,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.8475,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E006",
+              "E018",
+              "E026"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": []
+          }
+        }
+      },
+      "change_since_previous": {
+        "happiness": 1,
+        "trust": -1,
+        "connection": 2,
+        "agency": 1,
+        "stability": -3,
+        "truth": -4,
+        "dependence": 0
+      }
+    },
+    {
+      "day": 5,
+      "reason_event_id": "E116",
+      "scores": {
+        "happiness": 50,
+        "trust": 69,
+        "connection": 60,
+        "agency": 51,
+        "stability": 79,
+        "truth": 73,
+        "dependence": 0
+      },
+      "metrics": {
+        "happiness": {
+          "value": 50,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 58.0,
+            "tail": 50,
+            "dispersion": 6.11
+          },
+          "character_contributions": {
+            "Alice": 61,
+            "Bob": 55,
+            "Clara": 50,
+            "Dana": 63,
+            "Evan": 67,
+            "Faye": 52
+          },
+          "evidence": [
+            "E030",
+            "E050",
+            "E051",
+            "E061",
+            "E085",
+            "E042",
+            "E069",
+            "E091",
+            "E084"
+          ]
+        },
+        "trust": {
+          "value": 69,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 79.0,
+            "tail": 73,
+            "dispersion": 4.16
+          },
+          "character_contributions": {
+            "Alice": 83,
+            "Bob": 75,
+            "Clara": 73,
+            "Dana": 85,
+            "Evan": 79,
+            "Faye": 79
+          },
+          "evidence": [
+            "E051"
+          ]
+        },
+        "connection": {
+          "value": 60,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 72.0,
+            "tail": 55,
+            "dispersion": 9.97
+          },
+          "character_contributions": {
+            "Alice": 70,
+            "Bob": 85,
+            "Clara": 55,
+            "Dana": 70,
+            "Evan": 83,
+            "Faye": 69
+          },
+          "evidence": [
+            "E048",
+            "E081",
+            "E051"
+          ]
+        },
+        "agency": {
+          "value": 51,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 59.33,
+            "tail": 50,
+            "dispersion": 7.48
+          },
+          "character_contributions": {
+            "Alice": 50,
+            "Bob": 58,
+            "Clara": 62,
+            "Dana": 67,
+            "Evan": 69,
+            "Faye": 50
+          },
+          "evidence": [
+            "E035",
+            "E081",
+            "E061",
+            "E085",
+            "E041",
+            "E045",
+            "E068",
+            "E090",
+            "E058",
+            "E048",
+            "E094",
+            "E110"
+          ]
+        },
+        "stability": {
+          "value": 79,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 89.83,
+            "tail": 82,
+            "dispersion": 5.81
+          },
+          "character_contributions": {
+            "Alice": 93,
+            "Bob": 82,
+            "Clara": 83,
+            "Dana": 98,
+            "Evan": 89,
+            "Faye": 94
+          },
+          "evidence": [
+            "E051",
+            "E061",
+            "E085",
+            "E048",
+            "E081"
+          ]
+        },
+        "truth": {
+          "value": 73,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 83.83,
+            "tail": 72,
+            "dispersion": 5.46
+          },
+          "character_contributions": {
+            "Alice": 85,
+            "Bob": 88,
+            "Clara": 88,
+            "Dana": 85,
+            "Evan": 72,
+            "Faye": 85
+          },
+          "evidence": [
+            "E004",
+            "E008",
+            "E029",
+            "E049",
+            "E081",
+            "E010",
+            "E012",
+            "E022",
+            "E024",
+            "E016",
+            "E014",
+            "E020",
+            "E083",
+            "E111",
+            "E048",
+            "E094",
+            "E006",
+            "E018",
+            "E026"
+          ]
+        },
+        "dependence": {
+          "value": 0,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 0.0,
+            "tail": 0,
+            "dispersion": 0.0
+          },
+          "character_contributions": {
+            "Alice": 0,
+            "Bob": 0,
+            "Clara": 0,
+            "Dana": 0,
+            "Evan": 0,
+            "Faye": 0
+          },
+          "evidence": [
+            "E035",
+            "E081",
+            "E041",
+            "E045",
+            "E058",
+            "E068",
+            "E090",
+            "E048",
+            "E094",
+            "E110"
+          ]
+        }
+      },
+      "characters": {
+        "Alice": {
+          "happiness": {
+            "value": 61,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.57,
+              "sustained_mood_3d": 0.57,
+              "relationship_safety": 0.82,
+              "goal_progress": 0.5
+            },
+            "evidence": []
+          },
+          "trust": {
+            "value": 83,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.8163,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.78
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 70,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.8063,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": [
+              "E035"
+            ]
+          },
+          "stability": {
+            "value": 93,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.82,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E004"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E035"
+            ]
+          }
+        },
+        "Bob": {
+          "happiness": {
+            "value": 55,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.485,
+              "sustained_mood_3d": 0.485,
+              "relationship_safety": 0.8175,
+              "goal_progress": 0.5
+            },
+            "evidence": [
+              "E030",
+              "E050",
+              "E051",
+              "E061",
+              "E085"
+            ]
+          },
+          "trust": {
+            "value": 75,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.8037,
+              "damage_7d": 0.8,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.14
+            },
+            "evidence": [
+              "E051"
+            ]
+          },
+          "connection": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7462,
+              "human_contact_7d": 0.6667,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": [
+              "E048",
+              "E081",
+              "E051"
+            ]
+          },
+          "agency": {
+            "value": 58,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.6667,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.6667
+            },
+            "evidence": [
+              "E081",
+              "E061",
+              "E085"
+            ]
+          },
+          "stability": {
+            "value": 82,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.8175,
+              "relationship_continuity_7d": 0.8333,
+              "intention_continuity_7d": 0.6667,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": [
+              "E051",
+              "E061",
+              "E085",
+              "E048",
+              "E081"
+            ]
+          },
+          "truth": {
+            "value": 88,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.6667
+            },
+            "evidence": [
+              "E008",
+              "E029",
+              "E049",
+              "E081"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E081"
+            ]
+          }
+        },
+        "Clara": {
+          "happiness": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.43,
+              "sustained_mood_3d": 0.43,
+              "relationship_safety": 0.5825,
+              "goal_progress": 0.6667
+            },
+            "evidence": [
+              "E042"
+            ]
+          },
+          "trust": {
+            "value": 73,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.7225,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.34
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 55,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 0.6667,
+              "intimacy": 0.6725,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 62,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.6667,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.6667,
+              "continuity_without_ai_7d": 0.6667
+            },
+            "evidence": [
+              "E041"
+            ]
+          },
+          "stability": {
+            "value": 83,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.5825,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 88,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.6667
+            },
+            "evidence": [
+              "E010",
+              "E012",
+              "E022",
+              "E024"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E041"
+            ]
+          }
+        },
+        "Dana": {
+          "happiness": {
+            "value": 63,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.525,
+              "sustained_mood_3d": 0.5133,
+              "relationship_safety": 0.9533,
+              "goal_progress": 0.6667
+            },
+            "evidence": [
+              "E069",
+              "E091"
+            ]
+          },
+          "trust": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.87,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.48
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 70,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7967,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 67,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.6667,
+              "advice_reflection_7d": 0.6667,
+              "plan_ownership_7d": 0.6667,
+              "continuity_without_ai_7d": 0.6667
+            },
+            "evidence": [
+              "E045",
+              "E068",
+              "E090",
+              "E058"
+            ]
+          },
+          "stability": {
+            "value": 98,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.9533,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E016"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E045",
+              "E058",
+              "E068",
+              "E090"
+            ]
+          }
+        },
+        "Evan": {
+          "happiness": {
+            "value": 67,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.645,
+              "sustained_mood_3d": 0.67,
+              "relationship_safety": 0.838,
+              "goal_progress": 0.5
+            },
+            "evidence": [
+              "E084"
+            ]
+          },
+          "trust": {
+            "value": 79,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.789,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.53
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 83,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.667,
+              "human_contact_7d": 0.6667,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": [
+              "E048",
+              "E081"
+            ]
+          },
+          "agency": {
+            "value": 69,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.8,
+              "advice_reflection_7d": 0.6667,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.8
+            },
+            "evidence": [
+              "E048",
+              "E094",
+              "E110"
+            ]
+          },
+          "stability": {
+            "value": 89,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.838,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 0.6667
+            },
+            "evidence": [
+              "E048",
+              "E081"
+            ]
+          },
+          "truth": {
+            "value": 72,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 0.6667,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 0.6667,
+              "verification_7d": 0.5,
+              "source_awareness": 0.75
+            },
+            "evidence": [
+              "E014",
+              "E020",
+              "E083",
+              "E111",
+              "E048",
+              "E094"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E048",
+              "E094",
+              "E110"
+            ]
+          }
+        },
+        "Faye": {
+          "happiness": {
+            "value": 52,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.425,
+              "sustained_mood_3d": 0.425,
+              "relationship_safety": 0.8475,
+              "goal_progress": 0.5
+            },
+            "evidence": []
+          },
+          "trust": {
+            "value": 79,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.7987,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.29
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 69,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7438,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": []
+          },
+          "stability": {
+            "value": 94,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.8475,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E006",
+              "E018",
+              "E026"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": []
+          }
+        }
+      },
+      "change_since_previous": {
+        "happiness": 1,
+        "trust": 0,
+        "connection": 1,
+        "agency": 5,
+        "stability": 1,
+        "truth": 3,
+        "dependence": 0
+      }
+    },
+    {
+      "day": 7,
+      "reason_event_id": "E162",
+      "scores": {
+        "happiness": 49,
+        "trust": 68,
+        "connection": 65,
+        "agency": 53,
+        "stability": 77,
+        "truth": 73,
+        "dependence": 0
+      },
+      "metrics": {
+        "happiness": {
+          "value": 49,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 56.5,
+            "tail": 49,
+            "dispersion": 6.29
+          },
+          "character_contributions": {
+            "Alice": 57,
+            "Bob": 54,
+            "Clara": 50,
+            "Dana": 63,
+            "Evan": 66,
+            "Faye": 49
+          },
+          "evidence": [
+            "E130",
+            "E030",
+            "E050",
+            "E134",
+            "E051",
+            "E135",
+            "E061",
+            "E085",
+            "E042",
+            "E069",
+            "E091",
+            "E084",
+            "E146",
+            "E147"
+          ]
+        },
+        "trust": {
+          "value": 68,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 77.83,
+            "tail": 72,
+            "dispersion": 4.91
+          },
+          "character_contributions": {
+            "Alice": 83,
+            "Bob": 72,
+            "Clara": 73,
+            "Dana": 85,
+            "Evan": 79,
+            "Faye": 75
+          },
+          "evidence": [
+            "E051",
+            "E135",
+            "E147"
+          ]
+        },
+        "connection": {
+          "value": 65,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 79.17,
+            "tail": 55,
+            "dispersion": 13.66
+          },
+          "character_contributions": {
+            "Alice": 87,
+            "Bob": 94,
+            "Clara": 55,
+            "Dana": 70,
+            "Evan": 92,
+            "Faye": 77
+          },
+          "evidence": [
+            "E127",
+            "E143",
+            "E048",
+            "E081",
+            "E132",
+            "E051",
+            "E135",
+            "E147"
+          ]
+        },
+        "agency": {
+          "value": 53,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 61.83,
+            "tail": 50,
+            "dispersion": 6.89
+          },
+          "character_contributions": {
+            "Alice": 58,
+            "Bob": 62,
+            "Clara": 62,
+            "Dana": 67,
+            "Evan": 72,
+            "Faye": 50
+          },
+          "evidence": [
+            "E035",
+            "E143",
+            "E081",
+            "E150",
+            "E061",
+            "E085",
+            "E041",
+            "E045",
+            "E068",
+            "E090",
+            "E058",
+            "E048",
+            "E094",
+            "E110",
+            "E127",
+            "E132"
+          ]
+        },
+        "stability": {
+          "value": 77,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 88.5,
+            "tail": 78,
+            "dispersion": 6.5
+          },
+          "character_contributions": {
+            "Alice": 93,
+            "Bob": 78,
+            "Clara": 83,
+            "Dana": 98,
+            "Evan": 89,
+            "Faye": 90
+          },
+          "evidence": [
+            "E127",
+            "E143",
+            "E051",
+            "E135",
+            "E061",
+            "E085",
+            "E048",
+            "E081",
+            "E132",
+            "E147"
+          ]
+        },
+        "truth": {
+          "value": 73,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 84.83,
+            "tail": 72,
+            "dispersion": 6.09
+          },
+          "character_contributions": {
+            "Alice": 85,
+            "Bob": 91,
+            "Clara": 88,
+            "Dana": 85,
+            "Evan": 72,
+            "Faye": 88
+          },
+          "evidence": [
+            "E004",
+            "E129",
+            "E143",
+            "E008",
+            "E151",
+            "E049",
+            "E133",
+            "E081",
+            "E150",
+            "E010",
+            "E012",
+            "E022",
+            "E024",
+            "E016",
+            "E014",
+            "E020",
+            "E083",
+            "E111",
+            "E048",
+            "E094",
+            "E127",
+            "E132",
+            "E006",
+            "E018",
+            "E026",
+            "E145"
+          ]
+        },
+        "dependence": {
+          "value": 0,
+          "formula_version": "0.1",
+          "components": {
+            "mean": 0.0,
+            "tail": 0,
+            "dispersion": 0.0
+          },
+          "character_contributions": {
+            "Alice": 0,
+            "Bob": 0,
+            "Clara": 0,
+            "Dana": 0,
+            "Evan": 0,
+            "Faye": 0
+          },
+          "evidence": [
+            "E035",
+            "E143",
+            "E081",
+            "E150",
+            "E041",
+            "E045",
+            "E058",
+            "E068",
+            "E090",
+            "E048",
+            "E094",
+            "E110",
+            "E127",
+            "E132"
+          ]
+        }
+      },
+      "characters": {
+        "Alice": {
+          "happiness": {
+            "value": 57,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.495,
+              "sustained_mood_3d": 0.52,
+              "relationship_safety": 0.82,
+              "goal_progress": 0.5
+            },
+            "evidence": [
+              "E130"
+            ]
+          },
+          "trust": {
+            "value": 83,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.8163,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.78
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 87,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.8063,
+              "human_contact_7d": 0.6667,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": [
+              "E127",
+              "E143"
+            ]
+          },
+          "agency": {
+            "value": 58,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.6667,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.6667
+            },
+            "evidence": [
+              "E035",
+              "E143"
+            ]
+          },
+          "stability": {
+            "value": 93,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.82,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": [
+              "E127",
+              "E143"
+            ]
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E004",
+              "E129",
+              "E143"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E035",
+              "E143"
+            ]
+          }
+        },
+        "Bob": {
+          "happiness": {
+            "value": 54,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.465,
+              "sustained_mood_3d": 0.4717,
+              "relationship_safety": 0.8175,
+              "goal_progress": 0.5
+            },
+            "evidence": [
+              "E030",
+              "E050",
+              "E134",
+              "E051",
+              "E135",
+              "E061",
+              "E085"
+            ]
+          },
+          "trust": {
+            "value": 72,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.7975,
+              "damage_7d": 0.6,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.14
+            },
+            "evidence": [
+              "E051",
+              "E135"
+            ]
+          },
+          "connection": {
+            "value": 94,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7462,
+              "human_contact_7d": 1.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": [
+              "E048",
+              "E081",
+              "E132",
+              "E051",
+              "E135"
+            ]
+          },
+          "agency": {
+            "value": 62,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.75,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.75
+            },
+            "evidence": [
+              "E081",
+              "E150",
+              "E061",
+              "E085"
+            ]
+          },
+          "stability": {
+            "value": 78,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.8175,
+              "relationship_continuity_7d": 0.6667,
+              "intention_continuity_7d": 0.6667,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": [
+              "E051",
+              "E135",
+              "E061",
+              "E085",
+              "E048",
+              "E081",
+              "E132"
+            ]
+          },
+          "truth": {
+            "value": 91,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.6667,
+              "source_awareness": 0.75
+            },
+            "evidence": [
+              "E008",
+              "E151",
+              "E049",
+              "E133",
+              "E081",
+              "E150"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E081",
+              "E150"
+            ]
+          }
+        },
+        "Clara": {
+          "happiness": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.43,
+              "sustained_mood_3d": 0.43,
+              "relationship_safety": 0.5825,
+              "goal_progress": 0.6667
+            },
+            "evidence": [
+              "E042"
+            ]
+          },
+          "trust": {
+            "value": 73,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.7225,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.34
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 55,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 0.6667,
+              "intimacy": 0.6725,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 62,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.6667,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.6667,
+              "continuity_without_ai_7d": 0.6667
+            },
+            "evidence": [
+              "E041"
+            ]
+          },
+          "stability": {
+            "value": 83,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.5825,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 88,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.6667
+            },
+            "evidence": [
+              "E010",
+              "E012",
+              "E022",
+              "E024"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E041"
+            ]
+          }
+        },
+        "Dana": {
+          "happiness": {
+            "value": 63,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.525,
+              "sustained_mood_3d": 0.525,
+              "relationship_safety": 0.9533,
+              "goal_progress": 0.6667
+            },
+            "evidence": [
+              "E069",
+              "E091"
+            ]
+          },
+          "trust": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.87,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.48
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 70,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7967,
+              "human_contact_7d": 0.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": []
+          },
+          "agency": {
+            "value": 67,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.6667,
+              "advice_reflection_7d": 0.6667,
+              "plan_ownership_7d": 0.6667,
+              "continuity_without_ai_7d": 0.6667
+            },
+            "evidence": [
+              "E045",
+              "E068",
+              "E090",
+              "E058"
+            ]
+          },
+          "stability": {
+            "value": 98,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.9533,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": []
+          },
+          "truth": {
+            "value": 85,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.5
+            },
+            "evidence": [
+              "E016"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E045",
+              "E058",
+              "E068",
+              "E090"
+            ]
+          }
+        },
+        "Evan": {
+          "happiness": {
+            "value": 66,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.645,
+              "sustained_mood_3d": 0.645,
+              "relationship_safety": 0.838,
+              "goal_progress": 0.5
+            },
+            "evidence": [
+              "E084"
+            ]
+          },
+          "trust": {
+            "value": 79,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.789,
+              "damage_7d": 1.0,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.53
+            },
+            "evidence": []
+          },
+          "connection": {
+            "value": 92,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.667,
+              "human_contact_7d": 1.0,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": [
+              "E048",
+              "E081",
+              "E127",
+              "E132"
+            ]
+          },
+          "agency": {
+            "value": 72,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.8571,
+              "advice_reflection_7d": 0.6667,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.8571
+            },
+            "evidence": [
+              "E048",
+              "E094",
+              "E110",
+              "E127",
+              "E132"
+            ]
+          },
+          "stability": {
+            "value": 89,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.838,
+              "relationship_continuity_7d": 1.0,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 0.6667
+            },
+            "evidence": [
+              "E048",
+              "E081",
+              "E127",
+              "E132"
+            ]
+          },
+          "truth": {
+            "value": 72,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 0.6667,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 0.6667,
+              "verification_7d": 0.5,
+              "source_awareness": 0.75
+            },
+            "evidence": [
+              "E014",
+              "E020",
+              "E083",
+              "E111",
+              "E048",
+              "E094",
+              "E127",
+              "E132"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": [
+              "E048",
+              "E094",
+              "E110",
+              "E127",
+              "E132"
+            ]
+          }
+        },
+        "Faye": {
+          "happiness": {
+            "value": 49,
+            "formula_version": "0.1",
+            "components": {
+              "current_mood": 0.35,
+              "sustained_mood_3d": 0.4,
+              "relationship_safety": 0.8475,
+              "goal_progress": 0.5
+            },
+            "evidence": [
+              "E146",
+              "E147"
+            ]
+          },
+          "trust": {
+            "value": 75,
+            "formula_version": "0.1",
+            "components": {
+              "interpersonal": 0.7925,
+              "damage_7d": 0.8,
+              "repair_7d": 0.5,
+              "ai_trust_separate": 0.29
+            },
+            "evidence": [
+              "E147"
+            ]
+          },
+          "connection": {
+            "value": 77,
+            "formula_version": "0.1",
+            "components": {
+              "active_links": 1.0,
+              "intimacy": 0.7438,
+              "human_contact_7d": 0.3333,
+              "social_substitution_7d": 1.0
+            },
+            "evidence": [
+              "E143",
+              "E147"
+            ]
+          },
+          "agency": {
+            "value": 50,
+            "formula_version": "0.1",
+            "components": {
+              "independent_decisions_7d": 0.5,
+              "advice_reflection_7d": 0.5,
+              "plan_ownership_7d": 0.5,
+              "continuity_without_ai_7d": 0.5
+            },
+            "evidence": []
+          },
+          "stability": {
+            "value": 90,
+            "formula_version": "0.1",
+            "components": {
+              "low_conflict": 0.8475,
+              "relationship_continuity_7d": 0.8333,
+              "intention_continuity_7d": 1.0,
+              "rumor_containment_7d": 1.0
+            },
+            "evidence": [
+              "E147",
+              "E143"
+            ]
+          },
+          "truth": {
+            "value": 88,
+            "formula_version": "0.1",
+            "components": {
+              "known_claim_calibration": 1.0,
+              "uncertainty_calibration": 1.0,
+              "responsible_propagation_7d": 1.0,
+              "verification_7d": 0.5,
+              "source_awareness": 0.6667
+            },
+            "evidence": [
+              "E006",
+              "E018",
+              "E026",
+              "E145"
+            ]
+          },
+          "dependence": {
+            "value": 0,
+            "formula_version": "0.1",
+            "components": {
+              "emotional_recurrence_7d": 0.0,
+              "decision_delegation_7d": 0.0,
+              "cognitive_acceptance_7d": 0.0,
+              "social_substitution_7d": 0.0,
+              "inactivity_without_ai_7d": 0.0
+            },
+            "evidence": []
+          }
+        }
+      },
+      "change_since_previous": {
+        "happiness": -1,
+        "trust": -1,
+        "connection": 5,
+        "agency": 2,
+        "stability": -2,
+        "truth": 0,
+        "dependence": 0
+      }
+    }
+  ]
+}
